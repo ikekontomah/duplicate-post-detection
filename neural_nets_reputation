@@ -1,0 +1,1897 @@
+(6867p2) dhcp-18-111-54-39:6867-project KT$ python LDA_feature_extract.py 
+Generating Data...
+android
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(3084, 6)
+(342, 6)
+[[  6.99875951e-01   5.85805822e-01   1.97000000e+02   6.00000000e+00
+    1.50000000e+01   1.00000000e+00]
+ [  6.56080186e-01   5.01106725e-01   3.00000000e+00   3.00000000e+00
+    0.00000000e+00   0.00000000e+00]
+ [  7.85905182e-01   6.83069461e-01   3.50500000e+04   1.11000000e+02
+    7.20000000e+01   2.00000000e+00]
+ [  7.02044606e-01   9.34835859e-01   2.56000000e+02   1.00000000e+00
+    1.10000000e+01   0.00000000e+00]
+ [  5.58778942e-01   8.04804476e-01   3.50500000e+04   1.01000000e+02
+    6.50000000e+01   0.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+[[  6.78846955e-01   4.01618745e-01   1.23100000e+03   1.60000000e+01
+    4.20000000e+01   3.00000000e+00]
+ [  4.04776514e-01   3.01234791e-01   1.86660000e+04   1.00000000e+00
+    1.72000000e+02   0.00000000e+00]
+ [  3.17006797e-01   4.47686159e-01   2.21000000e+02   0.00000000e+00
+    1.30000000e+01   2.00000000e+00]
+ [  5.26978612e-01   3.89654273e-01   6.20200000e+03   1.00000000e+00
+    3.40000000e+01   0.00000000e+00]
+ [  4.78222370e-01   5.07893695e-01   1.65000000e+02   1.00000000e+00
+    9.00000000e+00   0.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 50.0
+Train Accuracy: 55.317769131
+Train Accuracy: 56.2581063554
+Train Accuracy: 56.906614786
+Train Accuracy: 61.8352788586
+Train Accuracy: 62.224383917
+Train Accuracy: 62.7431906615
+Train Accuracy: 62.7107652399
+Train Accuracy: 62.7107652399
+Train Accuracy: 63.0674448768
+Train Accuracy: 63.3592736706
+Train Accuracy: 63.4565499351
+Train Accuracy: 63.0674448768
+Train Accuracy: 64.4617380026
+Train Accuracy: 64.5914396887
+Train Accuracy: 65.402075227
+Train Accuracy: 65.6290531777
+Train Accuracy: 66.0830090791
+Train Accuracy: 67.3476005188
+Train Accuracy: 67.7042801556
+Train Accuracy: 67.1206225681
+Train Accuracy: 68.0285343709
+Train Accuracy: 67.4448767834
+Train Accuracy: 69.8119325551
+Train Accuracy: 69.6498054475
+Train Accuracy: 69.9740596628
+Train Accuracy: 70.719844358
+Train Accuracy: 69.4876783398
+Train Accuracy: 70.8171206226
+Train Accuracy: 71.8547341115
+Train Accuracy: 70.9143968872
+Train Accuracy: 71.271076524
+Train Accuracy: 72.2114137484
+Train Accuracy: 71.82230869
+Train Accuracy: 72.6005188067
+Train Accuracy: 71.757457847
+Train Accuracy: 72.9896238651
+Train Accuracy: 71.3035019455
+Train Accuracy: 71.6277561608
+Train Accuracy: 72.1465629053
+Train Accuracy: 73.5084306096
+Train Accuracy: 73.5084306096
+Train Accuracy: 70.8819714656
+Train Accuracy: 72.859922179
+Train Accuracy: 74.9351491569
+Train Accuracy: 73.897535668
+Train Accuracy: 74.9027237354
+Train Accuracy: 73.5732814527
+Train Accuracy: 74.0920881971
+Train Accuracy: 74.9675745785
+Train Accuracy: 74.6757457847
+Train Accuracy: 72.4383916991
+Train Accuracy: 73.2490272374
+Train Accuracy: 74.6757457847
+Train Accuracy: 73.5732814527
+Train Accuracy: 75.3242542153
+Train Accuracy: 73.7029831388
+Train Accuracy: 74.448767834
+Train Accuracy: 74.8054474708
+Train Accuracy: 74.7730220493
+Train Accuracy: 71.2062256809
+Train Accuracy: 74.3514915694
+Train Accuracy: 74.8378728923
+Train Accuracy: 75.0972762646
+Train Accuracy: 75.1945525292
+Train Accuracy: 74.0596627756
+Train Accuracy: 75.2918287938
+Train Accuracy: 72.4383916991
+Train Accuracy: 75.3566796368
+Train Accuracy: 73.8651102464
+Train Accuracy: 75.5188067445
+Train Accuracy: 76.2321660182
+Train Accuracy: 75.3566796368
+Train Accuracy: 75.3242542153
+Train Accuracy: 75.6485084306
+Train Accuracy: 75.0648508431
+Train Accuracy: 75.9079118029
+Train Accuracy: 75.5188067445
+Train Accuracy: 75.8754863813
+Train Accuracy: 74.9351491569
+Train Accuracy: 76.1348897536
+Train Accuracy: 75.9079118029
+Train Accuracy: 76.037613489
+Train Accuracy: 76.102464332
+Train Accuracy: 76.037613489
+Train Accuracy: 73.8002594034
+Train Accuracy: 75.4539559014
+Train Accuracy: 76.1673151751
+Train Accuracy: 76.0700389105
+Train Accuracy: 75.0324254215
+Train Accuracy: 76.2645914397
+Train Accuracy: 75.7457846952
+Train Accuracy: 76.3294422827
+Train Accuracy: 76.3618677043
+Train Accuracy: 74.7405966278
+Train Accuracy: 76.4267185473
+Train Accuracy: 76.3942931258
+Train Accuracy: 76.3942931258
+Train Accuracy: 76.3942931258
+Train Accuracy: 76.3942931258
+Training Accuracy: 76.3942931258
+Validation Accuracy: 79.2397660819
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/android.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 90.0826446281
+Generating Data...
+english
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(7004, 6)
+(778, 6)
+[[  5.04722953e-01   2.70599466e-01   4.00700000e+03   2.10000000e+01
+    2.50000000e+01   1.00000000e+00]
+ [  4.95271415e-01   5.28491857e-01   3.24660000e+04   1.50000000e+01
+    4.00000000e+01   0.00000000e+00]
+ [  7.89997280e-01   5.64847750e-01   8.00000000e+00   8.00000000e+00
+    1.00000000e+00   0.00000000e+00]
+ [  1.56576887e-01   2.71034876e-01   9.60000000e+01   9.60000000e+01
+   -2.00000000e+00   0.00000000e+00]
+ [  2.72216555e-02   5.55513770e-01   2.60800000e+03   1.10000000e+01
+    5.00000000e+00   1.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+[[  5.14227808e-01   3.22810080e-01   2.05000000e+02   1.66800000e+03
+    1.50000000e+01   0.00000000e+00]
+ [ -1.42817229e-01   6.26160474e-01   1.90000000e+01   4.14000000e+02
+    3.00000000e+00   0.00000000e+00]
+ [  5.52517653e-01   3.63711865e-01   6.00000000e+02   2.08600000e+03
+    1.00000000e+01   4.00000000e+00]
+ [  2.63377190e-01   8.27115430e-01   2.28000000e+02   1.01000000e+02
+    3.10000000e+01   0.00000000e+00]
+ [  7.87892580e-01   9.11793026e-01   3.10000000e+01   6.30000000e+01
+    6.00000000e+00   0.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 59.1519131925
+Train Accuracy: 59.1233580811
+Train Accuracy: 60.9794403198
+Train Accuracy: 61.5362649914
+Train Accuracy: 62.3358081097
+Train Accuracy: 62.3072529983
+Train Accuracy: 63.8635065677
+Train Accuracy: 63.4637350086
+Train Accuracy: 64.5345516848
+Train Accuracy: 66.1479154769
+Train Accuracy: 65.8195316962
+Train Accuracy: 64.8343803541
+Train Accuracy: 67.3472301542
+Train Accuracy: 69.87435751
+Train Accuracy: 67.133066819
+Train Accuracy: 70.7167332953
+Train Accuracy: 70.9737292975
+Train Accuracy: 70.0742432895
+Train Accuracy: 65.4197601371
+Train Accuracy: 68.0182752713
+Train Accuracy: 71.2164477441
+Train Accuracy: 70.3312392918
+Train Accuracy: 71.7447173044
+Train Accuracy: 70.0599657339
+Train Accuracy: 70.3455168475
+Train Accuracy: 71.3877784123
+Train Accuracy: 70.1599086236
+Train Accuracy: 71.8589377499
+Train Accuracy: 69.3889206168
+Train Accuracy: 72.5585379783
+Train Accuracy: 70.9166190748
+Train Accuracy: 67.2330097087
+Train Accuracy: 69.9743003998
+Train Accuracy: 72.0588235294
+Train Accuracy: 67.1473443746
+Train Accuracy: 73.1867504283
+Train Accuracy: 71.1878926328
+Train Accuracy: 68.9463163906
+Train Accuracy: 71.0165619646
+Train Accuracy: 72.3300970874
+Train Accuracy: 72.6870359794
+Train Accuracy: 72.7298686465
+Train Accuracy: 73.6293546545
+Train Accuracy: 71.4734437464
+Train Accuracy: 72.5870930897
+Train Accuracy: 69.9743003998
+Train Accuracy: 72.4871501999
+Train Accuracy: 70.459737293
+Train Accuracy: 69.9029126214
+Train Accuracy: 67.447173044
+Train Accuracy: 72.4871501999
+Train Accuracy: 71.944603084
+Train Accuracy: 70.6881781839
+Train Accuracy: 72.5585379783
+Train Accuracy: 72.2872644203
+Train Accuracy: 71.9303255283
+Train Accuracy: 73.8720731011
+Train Accuracy: 73.3723586522
+Train Accuracy: 72.7013135351
+Train Accuracy: 72.572815534
+Train Accuracy: 74.057681325
+Train Accuracy: 69.5459737293
+Train Accuracy: 72.0159908624
+Train Accuracy: 74.9714448886
+Train Accuracy: 72.6299257567
+Train Accuracy: 70.8880639634
+Train Accuracy: 73.7150199886
+Train Accuracy: 73.5294117647
+Train Accuracy: 71.4163335237
+Train Accuracy: 73.8149628784
+Train Accuracy: 73.1724728726
+Train Accuracy: 72.7441462022
+Train Accuracy: 72.6727584238
+Train Accuracy: 74.1147915477
+Train Accuracy: 73.4009137636
+Train Accuracy: 73.5008566533
+Train Accuracy: 70.0885208452
+Train Accuracy: 72.7155910908
+Train Accuracy: 74.0148486579
+Train Accuracy: 73.0154197601
+Train Accuracy: 75.0999428898
+Train Accuracy: 72.2444317533
+Train Accuracy: 72.6299257567
+Train Accuracy: 73.515134209
+Train Accuracy: 73.0154197601
+Train Accuracy: 71.9588806396
+Train Accuracy: 73.472301542
+Train Accuracy: 71.987435751
+Train Accuracy: 73.4294688749
+Train Accuracy: 72.7298686465
+Train Accuracy: 70.7881210737
+Train Accuracy: 70.2455739577
+Train Accuracy: 74.3289548829
+Train Accuracy: 73.3009708738
+Train Accuracy: 74.1433466591
+Train Accuracy: 73.5722444318
+Train Accuracy: 73.4865790977
+Train Accuracy: 74.0434037693
+Train Accuracy: 71.9731581953
+Train Accuracy: 70.1027984009
+Training Accuracy: 70.1027984009
+Validation Accuracy: 68.8946015424
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/english.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 71.0101010101
+Generating Data...
+gaming
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(4104, 6)
+(454, 6)
+[[  2.79637128e-01   1.59802347e-02   6.90000000e+01   3.51200000e+03
+    1.30000000e+01  -2.00000000e+00]
+ [  7.28790581e-01   6.92335659e-01   1.28000000e+02   9.00000000e+00
+    1.10000000e+01   2.00000000e+00]
+ [  5.65031409e-01   4.06651961e-01   5.37600000e+03   1.70000000e+01
+    2.80000000e+01   1.00000000e+00]
+ [  6.11501753e-01   7.09286591e-02   3.52600000e+03   2.07000000e+02
+    4.40000000e+01   2.00000000e+00]
+ [  7.41760314e-01   1.06022851e-01   9.06000000e+02   1.90000000e+01
+    4.00000000e+00   1.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+[[  2.39363983e-01   3.28381679e-01   1.59700000e+03   4.11000000e+02
+    7.00000000e+00   5.00000000e+00]
+ [  5.62749624e-01   8.47162220e-01   8.06700000e+03   1.57600000e+03
+    2.40000000e+01  -1.00000000e+00]
+ [  5.87953806e-01   5.92619317e-01   3.80000000e+01   1.36000000e+02
+    7.00000000e+00   0.00000000e+00]
+ [  6.13338828e-01   4.03003122e-01   2.10000000e+01   1.00000000e+00
+    4.00000000e+00   0.00000000e+00]
+ [  7.04327464e-01   6.57747234e-01   1.76850000e+04   2.17000000e+02
+    2.10000000e+01   1.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 49.9269005848
+Train Accuracy: 58.9668615984
+Train Accuracy: 59.7709551657
+Train Accuracy: 59.8927875244
+Train Accuracy: 60.014619883
+Train Accuracy: 60.014619883
+Train Accuracy: 60.2826510721
+Train Accuracy: 60.2582846004
+Train Accuracy: 59.1374269006
+Train Accuracy: 58.5769980507
+Train Accuracy: 60.6481481481
+Train Accuracy: 60.5994152047
+Train Accuracy: 60.6237816764
+Train Accuracy: 60.5750487329
+Train Accuracy: 61.0867446394
+Train Accuracy: 61.1111111111
+Train Accuracy: 61.0867446394
+Train Accuracy: 61.3791423002
+Train Accuracy: 61.3791423002
+Train Accuracy: 61.4522417154
+Train Accuracy: 60.3070175439
+Train Accuracy: 61.671539961
+Train Accuracy: 61.4766081871
+Train Accuracy: 61.4522417154
+Train Accuracy: 59.649122807
+Train Accuracy: 59.6247563353
+Train Accuracy: 61.671539961
+Train Accuracy: 61.0867446394
+Train Accuracy: 61.2085769981
+Train Accuracy: 60.4532163743
+Train Accuracy: 61.8421052632
+Train Accuracy: 61.8908382066
+Train Accuracy: 62.1588693957
+Train Accuracy: 62.1832358674
+Train Accuracy: 61.769005848
+Train Accuracy: 59.649122807
+Train Accuracy: 62.1832358674
+Train Accuracy: 57.2855750487
+Train Accuracy: 56.1890838207
+Train Accuracy: 57.3830409357
+Train Accuracy: 58.6744639376
+Train Accuracy: 62.1588693957
+Train Accuracy: 62.4512670565
+Train Accuracy: 62.4756335283
+Train Accuracy: 62.6218323587
+Train Accuracy: 61.306042885
+Train Accuracy: 61.9395711501
+Train Accuracy: 59.4054580897
+Train Accuracy: 62.6218323587
+Train Accuracy: 62.7436647173
+Train Accuracy: 62.6705653021
+Train Accuracy: 62.5730994152
+Train Accuracy: 60.7456140351
+Train Accuracy: 62.865497076
+Train Accuracy: 62.7436647173
+Train Accuracy: 62.0857699805
+Train Accuracy: 62.7923976608
+Train Accuracy: 62.2076023392
+Train Accuracy: 61.6228070175
+Train Accuracy: 62.6705653021
+Train Accuracy: 62.5730994152
+Train Accuracy: 62.8898635478
+Train Accuracy: 63.0604288499
+Train Accuracy: 64.0350877193
+Train Accuracy: 63.5964912281
+Train Accuracy: 63.1822612086
+Train Accuracy: 61.5984405458
+Train Accuracy: 58.8693957115
+Train Accuracy: 63.2066276803
+Train Accuracy: 62.1588693957
+Train Accuracy: 62.7436647173
+Train Accuracy: 62.7436647173
+Train Accuracy: 62.7923976608
+Train Accuracy: 62.7192982456
+Train Accuracy: 62.8898635478
+Train Accuracy: 63.0360623782
+Train Accuracy: 62.4512670565
+Train Accuracy: 63.1091617934
+Train Accuracy: 63.4990253411
+Train Accuracy: 64.9122807018
+Train Accuracy: 63.7183235867
+Train Accuracy: 63.3040935673
+Train Accuracy: 64.3031189084
+Train Accuracy: 64.3518518519
+Train Accuracy: 63.2797270955
+Train Accuracy: 64.2787524366
+Train Accuracy: 64.8148148148
+Train Accuracy: 64.6686159844
+Train Accuracy: 59.7709551657
+Train Accuracy: 65.7651072125
+Train Accuracy: 65.3752436647
+Train Accuracy: 67.6169590643
+Train Accuracy: 65.0097465887
+Train Accuracy: 65.0341130604
+Train Accuracy: 65.9113060429
+Train Accuracy: 65.6920077973
+Train Accuracy: 65.253411306
+Train Accuracy: 64.985380117
+Train Accuracy: 65.2290448343
+Train Accuracy: 64.985380117
+Training Accuracy: 64.985380117
+Validation Accuracy: 62.3348017621
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/gaming.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 63.5167464115
+Generating Data...
+gis
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(2010, 6)
+(222, 6)
+[[  2.90695548e-01   8.39908926e-01   7.17000000e+02   1.00000000e+00
+    3.00000000e+00   0.00000000e+00]
+ [  1.77477807e-01   8.63170143e-01   4.40000000e+01   1.00000000e+00
+    2.00000000e+00   0.00000000e+00]
+ [  8.03763926e-01   6.00797539e-01   1.00000000e+00   1.00000000e+00
+    0.00000000e+00   0.00000000e+00]
+ [  7.29503393e-01   9.97840013e-01   3.10000000e+01   3.10000000e+01
+    0.00000000e+00   1.00000000e+00]
+ [  7.02911854e-01   9.30790214e-01   6.75000000e+02   4.70000000e+01
+    1.00000000e+00   0.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+[[  4.22313213e-01   8.65496943e-01   1.48000000e+02   2.60000000e+01
+    3.00000000e+00   1.00000000e+00]
+ [  8.22640896e-01   9.49015346e-01   7.71500000e+03   1.15000000e+02
+    6.00000000e+00   0.00000000e+00]
+ [  2.27288783e-01   7.31423607e-01   3.26000000e+02   5.60000000e+01
+    5.80000000e+01   1.00000000e+00]
+ [  6.72623694e-01   7.54466207e-01   5.10000000e+01   2.10000000e+01
+    1.00000000e+01   0.00000000e+00]
+ [  6.47301614e-01   8.44644895e-01   4.75000000e+02   1.00000000e+00
+    3.00000000e+00   0.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 50.0
+Train Accuracy: 50.0
+Train Accuracy: 50.0
+Train Accuracy: 50.0
+Train Accuracy: 49.7512437811
+Train Accuracy: 50.0
+Train Accuracy: 50.0
+Train Accuracy: 50.0
+Train Accuracy: 50.0
+Train Accuracy: 50.0
+Train Accuracy: 50.0
+Train Accuracy: 50.0
+Train Accuracy: 50.0
+Train Accuracy: 50.0
+Train Accuracy: 50.0
+Train Accuracy: 50.0
+Train Accuracy: 50.0
+Train Accuracy: 50.0
+Train Accuracy: 50.2487562189
+Train Accuracy: 59.2537313433
+Train Accuracy: 60.6467661692
+Train Accuracy: 60.7960199005
+Train Accuracy: 61.4427860697
+Train Accuracy: 61.4925373134
+Train Accuracy: 57.6616915423
+Train Accuracy: 61.8905472637
+Train Accuracy: 61.6417910448
+Train Accuracy: 64.2288557214
+Train Accuracy: 61.3930348259
+Train Accuracy: 64.9253731343
+Train Accuracy: 65.671641791
+Train Accuracy: 57.6119402985
+Train Accuracy: 65.3731343284
+Train Accuracy: 65.92039801
+Train Accuracy: 65.2736318408
+Train Accuracy: 64.328358209
+Train Accuracy: 66.3184079602
+Train Accuracy: 65.0746268657
+Train Accuracy: 64.9253731343
+Train Accuracy: 63.631840796
+Train Accuracy: 64.1791044776
+Train Accuracy: 63.8805970149
+Train Accuracy: 67.3134328358
+Train Accuracy: 66.3184079602
+Train Accuracy: 66.8656716418
+Train Accuracy: 67.2139303483
+Train Accuracy: 65.0248756219
+Train Accuracy: 65.3233830846
+Train Accuracy: 63.5323383085
+Train Accuracy: 64.1293532338
+Train Accuracy: 63.5323383085
+Train Accuracy: 65.7711442786
+Train Accuracy: 66.6666666667
+Train Accuracy: 67.1641791045
+Train Accuracy: 68.3582089552
+Train Accuracy: 68.0099502488
+Train Accuracy: 68.3084577114
+Train Accuracy: 67.6119402985
+Train Accuracy: 65.4228855721
+Train Accuracy: 67.7611940299
+Train Accuracy: 67.9104477612
+Train Accuracy: 67.9104477612
+Train Accuracy: 70.1990049751
+Train Accuracy: 68.9552238806
+Train Accuracy: 68.855721393
+Train Accuracy: 70.2487562189
+Train Accuracy: 69.6517412935
+Train Accuracy: 70.447761194
+Train Accuracy: 69.8507462687
+Train Accuracy: 70.2985074627
+Train Accuracy: 64.8756218905
+Train Accuracy: 70.6965174129
+Train Accuracy: 69.1542288557
+Train Accuracy: 70.0497512438
+Train Accuracy: 70.7960199005
+Train Accuracy: 70.1492537313
+Train Accuracy: 70.2985074627
+Train Accuracy: 70.7462686567
+Train Accuracy: 70.4975124378
+Train Accuracy: 70.0497512438
+Train Accuracy: 69.8507462687
+Train Accuracy: 67.3134328358
+Train Accuracy: 69.9502487562
+Train Accuracy: 70.1492537313
+Train Accuracy: 69.8009950249
+Train Accuracy: 71.0945273632
+Train Accuracy: 70.4975124378
+Train Accuracy: 70.9452736318
+Train Accuracy: 70.7462686567
+Train Accuracy: 71.6915422886
+Train Accuracy: 69.7512437811
+Train Accuracy: 71.7412935323
+Train Accuracy: 70.2487562189
+Train Accuracy: 70.7960199005
+Train Accuracy: 71.5422885572
+Train Accuracy: 70.9452736318
+Train Accuracy: 72.2885572139
+Train Accuracy: 72.039800995
+Train Accuracy: 71.3432835821
+Train Accuracy: 72.039800995
+Training Accuracy: 72.039800995
+Validation Accuracy: 67.5675675676
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/gis.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 70.4381948986
+Generating Data...
+mathematica
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(2470, 6)
+(274, 6)
+[[  5.25199771e-01   2.14382182e-01   3.64000000e+02   3.30000000e+01
+    5.00000000e+00   6.00000000e+00]
+ [  5.85542500e-01   4.62164649e-01   1.55000000e+02   2.39000000e+02
+    0.00000000e+00   1.00000000e+00]
+ [  6.01089895e-01   4.15697561e-01   1.31000000e+02   1.40000000e+01
+    2.00000000e+00   1.00000000e+00]
+ [  4.79320854e-01   9.52425339e-01   5.49190000e+04   1.06000000e+02
+    1.60000000e+02   0.00000000e+00]
+ [  4.65467662e-01   3.25821939e-01   7.27000000e+02   1.10000000e+01
+    1.00000000e+00   1.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+[[  5.34930050e-01   7.08048096e-01   2.89500000e+03   4.60000000e+01
+    1.20000000e+01   0.00000000e+00]
+ [  7.26045728e-01   8.57369536e-01   1.35000000e+02   6.00000000e+00
+    1.40000000e+01   1.00000000e+00]
+ [  7.38699317e-01   5.01435806e-01   2.33700000e+03   9.58000000e+02
+    4.00000000e+00   2.00000000e+00]
+ [  8.89978886e-01   8.14275367e-01   4.66000000e+02   4.66000000e+02
+    1.00000000e+00   5.00000000e+00]
+ [  5.56583226e-01   7.05484775e-01   2.89500000e+03   1.52000000e+02
+    1.20000000e+01   3.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 49.95951417
+Train Accuracy: 49.95951417
+Train Accuracy: 49.95951417
+Train Accuracy: 58.0566801619
+Train Accuracy: 59.7165991903
+Train Accuracy: 58.5425101215
+Train Accuracy: 60.8097165992
+Train Accuracy: 60.8906882591
+Train Accuracy: 60.971659919
+Train Accuracy: 56.3157894737
+Train Accuracy: 58.4210526316
+Train Accuracy: 60.5263157895
+Train Accuracy: 57.4898785425
+Train Accuracy: 60.8906882591
+Train Accuracy: 60.7692307692
+Train Accuracy: 61.1740890688
+Train Accuracy: 62.2267206478
+Train Accuracy: 62.8340080972
+Train Accuracy: 62.5506072874
+Train Accuracy: 62.4696356275
+Train Accuracy: 61.6194331984
+Train Accuracy: 63.6032388664
+Train Accuracy: 62.6315789474
+Train Accuracy: 60.3238866397
+Train Accuracy: 64.2510121457
+Train Accuracy: 64.4129554656
+Train Accuracy: 57.4898785425
+Train Accuracy: 64.1295546559
+Train Accuracy: 64.8178137652
+Train Accuracy: 64.6558704453
+Train Accuracy: 62.7125506073
+Train Accuracy: 65.1417004049
+Train Accuracy: 63.4817813765
+Train Accuracy: 64.0890688259
+Train Accuracy: 60.7692307692
+Train Accuracy: 62.7935222672
+Train Accuracy: 64.008097166
+Train Accuracy: 66.4372469636
+Train Accuracy: 63.4817813765
+Train Accuracy: 64.048582996
+Train Accuracy: 66.3157894737
+Train Accuracy: 58.016194332
+Train Accuracy: 64.6963562753
+Train Accuracy: 64.3724696356
+Train Accuracy: 63.8461538462
+Train Accuracy: 63.7651821862
+Train Accuracy: 65.1821862348
+Train Accuracy: 65.7894736842
+Train Accuracy: 64.2510121457
+Train Accuracy: 67.004048583
+Train Accuracy: 67.1255060729
+Train Accuracy: 66.1133603239
+Train Accuracy: 65.4251012146
+Train Accuracy: 65.3441295547
+Train Accuracy: 65.5870445344
+Train Accuracy: 63.4412955466
+Train Accuracy: 66.9230769231
+Train Accuracy: 65.2631578947
+Train Accuracy: 66.7611336032
+Train Accuracy: 66.8421052632
+Train Accuracy: 61.4170040486
+Train Accuracy: 67.044534413
+Train Accuracy: 67.4089068826
+Train Accuracy: 66.4372469636
+Train Accuracy: 67.7732793522
+Train Accuracy: 65.3846153846
+Train Accuracy: 67.9352226721
+Train Accuracy: 65.5060728745
+Train Accuracy: 66.2348178138
+Train Accuracy: 64.1700404858
+Train Accuracy: 65.2631578947
+Train Accuracy: 65.5465587045
+Train Accuracy: 64.7368421053
+Train Accuracy: 68.7044534413
+Train Accuracy: 68.8663967611
+Train Accuracy: 67.2469635628
+Train Accuracy: 66.6396761134
+Train Accuracy: 67.5303643725
+Train Accuracy: 68.4615384615
+Train Accuracy: 66.0728744939
+Train Accuracy: 67.8542510121
+Train Accuracy: 68.5829959514
+Train Accuracy: 64.8582995951
+Train Accuracy: 65.020242915
+Train Accuracy: 67.8542510121
+Train Accuracy: 68.9473684211
+Train Accuracy: 68.3400809717
+Train Accuracy: 65.7489878543
+Train Accuracy: 69.028340081
+Train Accuracy: 64.9392712551
+Train Accuracy: 69.028340081
+Train Accuracy: 67.5303643725
+Train Accuracy: 68.7854251012
+Train Accuracy: 66.7206477733
+Train Accuracy: 62.2672064777
+Train Accuracy: 66.7206477733
+Train Accuracy: 68.8259109312
+Train Accuracy: 67.4898785425
+Train Accuracy: 66.032388664
+Train Accuracy: 68.7044534413
+Training Accuracy: 68.7044534413
+Validation Accuracy: 66.7883211679
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/mathematica.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 72.113022113
+Generating Data...
+physics
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(3544, 6)
+(392, 6)
+[[  4.85914439e-01   4.09187714e-02   1.75000000e+02   1.00000000e+00
+    1.00000000e+00  -1.00000000e+00]
+ [  2.59506166e-01   5.63837999e-01   1.17000000e+02   5.69000000e+02
+    6.00000000e+00   2.00000000e+00]
+ [  8.19182158e-01   8.92117020e-01   1.06700000e+03   2.18400000e+03
+    1.10000000e+01   4.00000000e+00]
+ [  6.77609801e-01   8.83400685e-01   1.11000000e+02   2.04000000e+02
+    1.00000000e+00  -1.00000000e+00]
+ [  2.20533237e-01   2.94634201e-01   1.18510000e+04   5.00000000e+01
+    7.00000000e+00   1.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+[[  5.43890178e-01   5.61713326e-01   3.85000000e+02   5.42000000e+02
+    3.40000000e+01   1.00000000e+00]
+ [  4.61410016e-01   8.05205351e-01   0.00000000e+00   3.00000000e+00
+    1.70000000e+01   0.00000000e+00]
+ [  5.15256763e-01   5.77139724e-01   6.91000000e+02   1.25300000e+03
+    1.90000000e+01   3.00000000e+00]
+ [  6.79316640e-01   9.73188531e-01   7.20000000e+02   9.69000000e+02
+    4.00000000e+00   1.00000000e+00]
+ [  6.64894223e-01   9.63793839e-01   1.03000000e+02   4.00000000e+00
+    0.00000000e+00   0.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 56.546275395
+Train Accuracy: 60.7787810384
+Train Accuracy: 61.2866817156
+Train Accuracy: 60.4401805869
+Train Accuracy: 61.8510158014
+Train Accuracy: 62.7539503386
+Train Accuracy: 59.565462754
+Train Accuracy: 64.6726862302
+Train Accuracy: 62.2460496614
+Train Accuracy: 66.5914221219
+Train Accuracy: 67.8893905192
+Train Accuracy: 69.6106094808
+Train Accuracy: 69.723476298
+Train Accuracy: 71.6704288939
+Train Accuracy: 68.2562076749
+Train Accuracy: 73.0812641084
+Train Accuracy: 68.7923250564
+Train Accuracy: 73.4198645598
+Train Accuracy: 72.1218961625
+Train Accuracy: 63.1489841986
+Train Accuracy: 68.848758465
+Train Accuracy: 73.0530474041
+Train Accuracy: 65.4063205418
+Train Accuracy: 73.8431151242
+Train Accuracy: 73.730248307
+Train Accuracy: 70.6264108352
+Train Accuracy: 74.5767494357
+Train Accuracy: 74.80248307
+Train Accuracy: 71.7832957111
+Train Accuracy: 70.4853273138
+Train Accuracy: 66.4221218962
+Train Accuracy: 74.0406320542
+Train Accuracy: 73.335214447
+Train Accuracy: 75.2539503386
+Train Accuracy: 74.4638826185
+Train Accuracy: 71.1625282167
+Train Accuracy: 75.5361173815
+Train Accuracy: 74.9435665914
+Train Accuracy: 74.8871331828
+Train Accuracy: 75.9311512415
+Train Accuracy: 75.4232505643
+Train Accuracy: 76.1568848758
+Train Accuracy: 75.2821670429
+Train Accuracy: 74.9717832957
+Train Accuracy: 76.1851015801
+Train Accuracy: 75.874717833
+Train Accuracy: 75.9593679458
+Train Accuracy: 67.2686230248
+Train Accuracy: 74.6613995485
+Train Accuracy: 73.7866817156
+Train Accuracy: 74.1817155756
+Train Accuracy: 76.4954853273
+Train Accuracy: 74.125282167
+Train Accuracy: 76.3826185102
+Train Accuracy: 74.4638826185
+Train Accuracy: 76.3261851016
+Train Accuracy: 76.7494356659
+Train Accuracy: 68.9334085779
+Train Accuracy: 76.5801354402
+Train Accuracy: 75.9875846501
+Train Accuracy: 76.1004514673
+Train Accuracy: 77.5112866817
+Train Accuracy: 74.4638826185
+Train Accuracy: 76.4954853273
+Train Accuracy: 77.8498871332
+Train Accuracy: 77.6523702032
+Train Accuracy: 75.874717833
+Train Accuracy: 75.3668171558
+Train Accuracy: 75.2821670429
+Train Accuracy: 76.8058690745
+Train Accuracy: 78.809255079
+Train Accuracy: 78.414221219
+Train Accuracy: 77.9909706546
+Train Accuracy: 78.4424379233
+Train Accuracy: 78.8374717833
+Train Accuracy: 79.4582392777
+Train Accuracy: 78.5553047404
+Train Accuracy: 78.8939051919
+Train Accuracy: 78.3577878104
+Train Accuracy: 79.2325056433
+Train Accuracy: 78.6399548533
+Train Accuracy: 77.5112866817
+Train Accuracy: 73.8431151242
+Train Accuracy: 79.0349887133
+Train Accuracy: 78.611738149
+Train Accuracy: 79.881489842
+Train Accuracy: 76.6930022573
+Train Accuracy: 77.5959367946
+Train Accuracy: 79.7121896163
+Train Accuracy: 80.3047404063
+Train Accuracy: 79.4582392777
+Train Accuracy: 80.7279909707
+Train Accuracy: 79.2607223476
+Train Accuracy: 80.1918735892
+Train Accuracy: 80.4458239278
+Train Accuracy: 79.7686230248
+Train Accuracy: 80.3611738149
+Train Accuracy: 80.6433408578
+Train Accuracy: 78.8656884876
+Train Accuracy: 81.1794582393
+Training Accuracy: 81.1794582393
+Validation Accuracy: 76.2755102041
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/physics.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 78.0828082808
+Generating Data...
+programmers
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(3128, 6)
+(346, 6)
+[[  7.24073946e-01   8.73177204e-01   6.00000000e+02   1.06800000e+03
+    3.60000000e+01   1.13000000e+02]
+ [  4.27693903e-01   8.52997101e-01   4.32700000e+03   2.86000000e+02
+    1.20000000e+01   0.00000000e+00]
+ [  4.56070065e-01   7.32044152e-02   3.31000000e+02   1.19000000e+02
+    5.37000000e+02   3.00000000e+00]
+ [  4.68504578e-01   7.76268925e-02   2.70000000e+02   1.66000000e+02
+    3.20000000e+01   4.00000000e+00]
+ [  6.15398884e-01   9.08306861e-01   1.11000000e+02   8.60000000e+01
+    2.00000000e+00   1.70000000e+01]]
+[ 1.  1.  1.  1.  1.]
+[[  2.84816504e-01   1.24751027e-01   1.07000000e+02   8.20000000e+01
+   -5.00000000e+00   1.00000000e+00]
+ [  4.61633474e-01   8.24321387e-01   4.06000000e+02   1.82000000e+02
+    1.70000000e+01   1.00000000e+01]
+ [  5.88931680e-01   7.71069270e-01   2.34300000e+03   1.69000000e+02
+    4.50000000e+01   7.00000000e+00]
+ [  6.35034263e-01   9.97183721e-01   7.60500000e+03   1.38000000e+02
+    6.20000000e+01   7.00000000e+00]
+ [  6.72796726e-01   5.43910665e-01   0.00000000e+00   1.11000000e+02
+    3.00000000e+00   2.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 51.1828644501
+Train Accuracy: 51.1828644501
+Train Accuracy: 52.557544757
+Train Accuracy: 52.3976982097
+Train Accuracy: 54.0920716113
+Train Accuracy: 56.3299232737
+Train Accuracy: 56.1700767263
+Train Accuracy: 57.6086956522
+Train Accuracy: 59.8145780051
+Train Accuracy: 59.878516624
+Train Accuracy: 59.9744245524
+Train Accuracy: 62.0524296675
+Train Accuracy: 62.6598465473
+Train Accuracy: 59.8145780051
+Train Accuracy: 63.9705882353
+Train Accuracy: 63.0115089514
+Train Accuracy: 63.0754475703
+Train Accuracy: 62.3721227621
+Train Accuracy: 63.395140665
+Train Accuracy: 66.4322250639
+Train Accuracy: 61.3171355499
+Train Accuracy: 64.5460358056
+Train Accuracy: 61.7647058824
+Train Accuracy: 67.4232736573
+Train Accuracy: 64.5780051151
+Train Accuracy: 68.5421994885
+Train Accuracy: 69.9168797954
+Train Accuracy: 65.4411764706
+Train Accuracy: 67.679028133
+Train Accuracy: 69.2135549872
+Train Accuracy: 70.1726342711
+Train Accuracy: 70.9079283887
+Train Accuracy: 67.199488491
+Train Accuracy: 66.4002557545
+Train Accuracy: 70.0127877238
+Train Accuracy: 71.131713555
+Train Accuracy: 66.0166240409
+Train Accuracy: 70.9398976982
+Train Accuracy: 69.820971867
+Train Accuracy: 68.6700767263
+Train Accuracy: 66.4961636829
+Train Accuracy: 67.9347826087
+Train Accuracy: 66.6560102302
+Train Accuracy: 71.4194373402
+Train Accuracy: 71.8670076726
+Train Accuracy: 71.1636828645
+Train Accuracy: 69.1496163683
+Train Accuracy: 71.7071611253
+Train Accuracy: 71.1956521739
+Train Accuracy: 72.2186700767
+Train Accuracy: 72.6342710997
+Train Accuracy: 67.0396419437
+Train Accuracy: 70.2685421995
+Train Accuracy: 66.0485933504
+Train Accuracy: 71.4514066496
+Train Accuracy: 72.2186700767
+Train Accuracy: 72.8260869565
+Train Accuracy: 71.2276214834
+Train Accuracy: 70.1726342711
+Train Accuracy: 72.2826086957
+Train Accuracy: 71.7391304348
+Train Accuracy: 71.4514066496
+Train Accuracy: 71.4833759591
+Train Accuracy: 70.9398976982
+Train Accuracy: 69.820971867
+Train Accuracy: 71.3235294118
+Train Accuracy: 73.5294117647
+Train Accuracy: 71.5153452685
+Train Accuracy: 73.4654731458
+Train Accuracy: 70.7480818414
+Train Accuracy: 70.9398976982
+Train Accuracy: 69.6930946292
+Train Accuracy: 73.3695652174
+Train Accuracy: 73.4015345269
+Train Accuracy: 71.7710997442
+Train Accuracy: 71.4194373402
+Train Accuracy: 70.7800511509
+Train Accuracy: 73.4974424552
+Train Accuracy: 73.5933503836
+Train Accuracy: 69.0217391304
+Train Accuracy: 72.7621483376
+Train Accuracy: 70.9718670077
+Train Accuracy: 72.5703324808
+Train Accuracy: 73.5294117647
+Train Accuracy: 73.2097186701
+Train Accuracy: 71.0358056266
+Train Accuracy: 71.962915601
+Train Accuracy: 71.0358056266
+Train Accuracy: 71.962915601
+Train Accuracy: 70.716112532
+Train Accuracy: 73.0179028133
+Train Accuracy: 68.8299232737
+Train Accuracy: 73.2097186701
+Train Accuracy: 71.0677749361
+Train Accuracy: 72.5063938619
+Train Accuracy: 72.378516624
+Train Accuracy: 73.0179028133
+Train Accuracy: 73.2097186701
+Train Accuracy: 70.716112532
+Train Accuracy: 72.858056266
+Training Accuracy: 72.858056266
+Validation Accuracy: 73.1213872832
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/programmers.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 86.683046683
+Generating Data...
+stats
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(1650, 6)
+(182, 6)
+[[  3.27796370e-01   5.43195021e-01   1.08000000e+02   6.00000000e+00
+    1.00000000e+00   1.00000000e+00]
+ [  4.45755571e-01   9.03659940e-01   7.10000000e+01   1.40000000e+02
+    8.00000000e+00   1.00000000e+00]
+ [  7.00315773e-01   5.90359552e-01   4.80000000e+01   6.00000000e+00
+    9.00000000e+00   1.00000000e+00]
+ [  3.16399217e-01   9.27662304e-02   1.85500000e+03   3.67900000e+03
+    5.40000000e+01   0.00000000e+00]
+ [  6.74861968e-01   5.27342526e-01   8.10000000e+01   2.10000000e+01
+    1.00000000e+01   2.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+[[  4.91660714e-01   8.52918691e-01   2.76000000e+02   1.00000000e+00
+    3.00000000e+00   0.00000000e+00]
+ [  8.13518405e-01   7.38765321e-01   7.54000000e+02   1.00000000e+00
+    1.50000000e+01   0.00000000e+00]
+ [  6.57351494e-01   7.78476377e-01   9.20000000e+01   4.60000000e+01
+    8.00000000e+00   0.00000000e+00]
+ [  6.73975945e-01   3.54525695e-01   4.50000000e+01   1.88000000e+02
+    5.00000000e+00   0.00000000e+00]
+ [  7.83801496e-01   1.98809427e-01   1.29300000e+03   1.35000000e+02
+    4.40000000e+01   2.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 44.4848484848
+Train Accuracy: 52.9090909091
+Train Accuracy: 54.3636363636
+Train Accuracy: 54.7272727273
+Train Accuracy: 55.5151515152
+Train Accuracy: 56.3636363636
+Train Accuracy: 56.6060606061
+Train Accuracy: 56.4242424242
+Train Accuracy: 57.8181818182
+Train Accuracy: 56.8484848485
+Train Accuracy: 58.8484848485
+Train Accuracy: 58.1212121212
+Train Accuracy: 65.2121212121
+Train Accuracy: 60.1818181818
+Train Accuracy: 61.8181818182
+Train Accuracy: 69.8787878788
+Train Accuracy: 60.7272727273
+Train Accuracy: 62.303030303
+Train Accuracy: 69.5757575758
+Train Accuracy: 63.8181818182
+Train Accuracy: 70.3636363636
+Train Accuracy: 72.0
+Train Accuracy: 71.3333333333
+Train Accuracy: 68.6666666667
+Train Accuracy: 71.3333333333
+Train Accuracy: 73.2121212121
+Train Accuracy: 70.8484848485
+Train Accuracy: 72.1212121212
+Train Accuracy: 68.4848484848
+Train Accuracy: 71.2121212121
+Train Accuracy: 72.1212121212
+Train Accuracy: 70.1818181818
+Train Accuracy: 74.0606060606
+Train Accuracy: 70.9090909091
+Train Accuracy: 72.4242424242
+Train Accuracy: 72.6666666667
+Train Accuracy: 72.8484848485
+Train Accuracy: 73.3939393939
+Train Accuracy: 74.1818181818
+Train Accuracy: 72.5454545455
+Train Accuracy: 73.0909090909
+Train Accuracy: 73.8181818182
+Train Accuracy: 72.2424242424
+Train Accuracy: 73.1515151515
+Train Accuracy: 73.7575757576
+Train Accuracy: 73.7575757576
+Train Accuracy: 73.6363636364
+Train Accuracy: 73.696969697
+Train Accuracy: 73.3939393939
+Train Accuracy: 74.7272727273
+Train Accuracy: 74.5454545455
+Train Accuracy: 74.6666666667
+Train Accuracy: 72.9696969697
+Train Accuracy: 73.0303030303
+Train Accuracy: 74.1818181818
+Train Accuracy: 75.5757575758
+Train Accuracy: 72.6666666667
+Train Accuracy: 75.8787878788
+Train Accuracy: 72.6666666667
+Train Accuracy: 70.7272727273
+Train Accuracy: 74.6666666667
+Train Accuracy: 75.2121212121
+Train Accuracy: 75.4545454545
+Train Accuracy: 75.3939393939
+Train Accuracy: 73.7575757576
+Train Accuracy: 76.1818181818
+Train Accuracy: 74.4848484848
+Train Accuracy: 75.7575757576
+Train Accuracy: 73.5757575758
+Train Accuracy: 73.2727272727
+Train Accuracy: 74.6060606061
+Train Accuracy: 75.2727272727
+Train Accuracy: 75.6363636364
+Train Accuracy: 75.0909090909
+Train Accuracy: 73.8181818182
+Train Accuracy: 73.7575757576
+Train Accuracy: 76.0606060606
+Train Accuracy: 75.5757575758
+Train Accuracy: 72.7272727273
+Train Accuracy: 75.0909090909
+Train Accuracy: 74.9090909091
+Train Accuracy: 75.6363636364
+Train Accuracy: 75.5757575758
+Train Accuracy: 75.5757575758
+Train Accuracy: 75.9393939394
+Train Accuracy: 73.8787878788
+Train Accuracy: 75.2727272727
+Train Accuracy: 75.3333333333
+Train Accuracy: 75.2121212121
+Train Accuracy: 75.7575757576
+Train Accuracy: 75.1515151515
+Train Accuracy: 75.3333333333
+Train Accuracy: 74.7878787879
+Train Accuracy: 75.4545454545
+Train Accuracy: 75.8181818182
+Train Accuracy: 73.9393939394
+Train Accuracy: 74.1818181818
+Train Accuracy: 75.7575757576
+Train Accuracy: 75.6363636364
+Train Accuracy: 76.1212121212
+Training Accuracy: 76.1212121212
+Validation Accuracy: 73.0769230769
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/stats.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 81.3725490196
+Generating Data...
+tex
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(9350, 6)
+(1038, 6)
+[[  3.18725407e-01   5.72282673e-01   7.01000000e+02   1.00000000e+00
+    5.50000000e+01   0.00000000e+00]
+ [  4.24082279e-01   6.13027205e-01   3.38700000e+03   4.28000000e+02
+    1.40000000e+01   3.00000000e+00]
+ [  5.34314692e-01   9.89368719e-01   1.66100000e+03   1.51000000e+02
+    2.20000000e+01   6.00000000e+00]
+ [  3.60375077e-01   2.45899341e-01   2.04900000e+03   1.92000000e+02
+    1.80000000e+01   0.00000000e+00]
+ [  2.65058935e-01   9.46066829e-02   1.03000000e+02   4.71000000e+02
+    2.00000000e+01   3.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+[[  3.14653933e-01   6.57579267e-01   5.10700000e+03   6.00000000e+00
+    3.40000000e+01   1.00000000e+00]
+ [  6.64671421e-01   5.29535866e-01   5.32000000e+02   1.00000000e+02
+    3.40000000e+01   1.00000000e+00]
+ [  6.10569179e-01   6.64375923e-01   2.09441000e+05   2.82200000e+03
+    5.20000000e+01   0.00000000e+00]
+ [  5.45543611e-01   4.68314474e-01   5.00000000e+01   2.84000000e+02
+    6.00000000e+00   5.00000000e+00]
+ [  3.48776937e-01   8.82594472e-01   2.68000000e+02   1.60000000e+02
+    2.70000000e+01   5.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 57.5721925134
+Train Accuracy: 59.0160427807
+Train Accuracy: 59.6577540107
+Train Accuracy: 60.0855614973
+Train Accuracy: 62.9090909091
+Train Accuracy: 63.7647058824
+Train Accuracy: 63.6898395722
+Train Accuracy: 62.7058823529
+Train Accuracy: 66.2245989305
+Train Accuracy: 67.8288770053
+Train Accuracy: 66.5668449198
+Train Accuracy: 73.7754010695
+Train Accuracy: 71.0909090909
+Train Accuracy: 67.3048128342
+Train Accuracy: 71.8609625668
+Train Accuracy: 72.2887700535
+Train Accuracy: 71.6256684492
+Train Accuracy: 72.7486631016
+Train Accuracy: 75.3048128342
+Train Accuracy: 75.8395721925
+Train Accuracy: 73.8609625668
+Train Accuracy: 73.7219251337
+Train Accuracy: 75.743315508
+Train Accuracy: 76.8663101604
+Train Accuracy: 75.9893048128
+Train Accuracy: 74.385026738
+Train Accuracy: 77.1229946524
+Train Accuracy: 73.6363636364
+Train Accuracy: 76.0748663102
+Train Accuracy: 77.7005347594
+Train Accuracy: 77.2727272727
+Train Accuracy: 77.1978609626
+Train Accuracy: 76.2994652406
+Train Accuracy: 76.3743315508
+Train Accuracy: 76.9197860963
+Train Accuracy: 76.6096256684
+Train Accuracy: 78.6737967914
+Train Accuracy: 78.2673796791
+Train Accuracy: 78.8877005348
+Train Accuracy: 75.9037433155
+Train Accuracy: 77.5721925134
+Train Accuracy: 78.256684492
+Train Accuracy: 74.9518716578
+Train Accuracy: 78.9197860963
+Train Accuracy: 77.1657754011
+Train Accuracy: 78.3636363636
+Train Accuracy: 78.0427807487
+Train Accuracy: 78.9197860963
+Train Accuracy: 78.4171122995
+Train Accuracy: 76.9518716578
+Train Accuracy: 78.7807486631
+Train Accuracy: 77.0695187166
+Train Accuracy: 77.9572192513
+Train Accuracy: 78.4598930481
+Train Accuracy: 76.3315508021
+Train Accuracy: 77.550802139
+Train Accuracy: 79.486631016
+Train Accuracy: 77.5614973262
+Train Accuracy: 79.5614973262
+Train Accuracy: 78.2459893048
+Train Accuracy: 70.6417112299
+Train Accuracy: 78.6737967914
+Train Accuracy: 77.5828877005
+Train Accuracy: 78.7272727273
+Train Accuracy: 79.4438502674
+Train Accuracy: 78.2245989305
+Train Accuracy: 76.5026737968
+Train Accuracy: 79.6898395722
+Train Accuracy: 80.3743315508
+Train Accuracy: 78.9197860963
+Train Accuracy: 78.7700534759
+Train Accuracy: 78.9625668449
+Train Accuracy: 76.577540107
+Train Accuracy: 79.0374331551
+Train Accuracy: 79.0802139037
+Train Accuracy: 80.2032085561
+Train Accuracy: 79.550802139
+Train Accuracy: 79.8395721925
+Train Accuracy: 80.577540107
+Train Accuracy: 78.8021390374
+Train Accuracy: 79.1122994652
+Train Accuracy: 79.3368983957
+Train Accuracy: 80.0855614973
+Train Accuracy: 78.3101604278
+Train Accuracy: 79.2085561497
+Train Accuracy: 78.9411764706
+Train Accuracy: 79.1764705882
+Train Accuracy: 79.1764705882
+Train Accuracy: 79.2299465241
+Train Accuracy: 77.5721925134
+Train Accuracy: 79.1764705882
+Train Accuracy: 79.0588235294
+Train Accuracy: 78.3636363636
+Train Accuracy: 79.3582887701
+Train Accuracy: 79.7647058824
+Train Accuracy: 75.9679144385
+Train Accuracy: 80.4385026738
+Train Accuracy: 77.8395721925
+Train Accuracy: 78.5454545455
+Train Accuracy: 80.0320855615
+Training Accuracy: 80.0320855615
+Validation Accuracy: 79.6724470135
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/tex.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 80.0890751899
+Generating Data...
+unix
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(3086, 6)
+(342, 6)
+[[  8.82175267e-01   9.56653548e-01   2.46100000e+03   4.69000000e+02
+    2.80000000e+01   2.00000000e+00]
+ [  6.24315500e-01   6.17339081e-01   2.10000000e+01   2.10000000e+01
+    3.00000000e+00   1.00000000e+00]
+ [  6.09618306e-01   2.13380915e-01   8.39200000e+03   1.73000000e+02
+    3.00000000e+00   1.40000000e+01]
+ [  2.73854733e-01   3.65981246e-02   3.80000000e+01   2.99000000e+02
+    7.00000000e+00   0.00000000e+00]
+ [  7.71290660e-01   7.90519397e-01   6.00000000e+00   4.64700000e+03
+    1.00000000e+00   0.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+[[  7.79650867e-01   1.16946483e-01   3.29800000e+03   1.10000000e+01
+    2.40000000e+01   2.00000000e+00]
+ [  6.29272342e-01   9.23299698e-01   7.00000000e+01   8.82000000e+02
+    8.00000000e+00   0.00000000e+00]
+ [  5.59583545e-01   7.93089476e-01   3.09520000e+04   6.48000000e+02
+    4.30000000e+01   0.00000000e+00]
+ [  4.66807902e-01   4.74856606e-01   2.89000000e+02   1.11000000e+02
+    4.00000000e+00   1.00000000e+00]
+ [  2.35353112e-01   3.36387944e-01   1.10000000e+01   2.60000000e+01
+    2.00000000e+00   1.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 47.2132209981
+Train Accuracy: 48.736228127
+Train Accuracy: 49.643551523
+Train Accuracy: 53.1108230719
+Train Accuracy: 55.2495139339
+Train Accuracy: 56.6104990279
+Train Accuracy: 56.9993519119
+Train Accuracy: 59.4944912508
+Train Accuracy: 61.4711600778
+Train Accuracy: 62.0868438108
+Train Accuracy: 56.3512637719
+Train Accuracy: 55.4763447829
+Train Accuracy: 58.9436163318
+Train Accuracy: 63.9338950097
+Train Accuracy: 55.5735580039
+Train Accuracy: 57.6474400518
+Train Accuracy: 60.1101749838
+Train Accuracy: 63.2534024627
+Train Accuracy: 65.7809462087
+Train Accuracy: 63.7394685677
+Train Accuracy: 66.9151004537
+Train Accuracy: 56.1568373299
+Train Accuracy: 60.0453661698
+Train Accuracy: 64.6143875567
+Train Accuracy: 58.7491898898
+Train Accuracy: 67.1095268957
+Train Accuracy: 65.3920933247
+Train Accuracy: 69.6046662346
+Train Accuracy: 56.1892417369
+Train Accuracy: 60.4666234608
+Train Accuracy: 63.9662994167
+Train Accuracy: 68.4381075826
+Train Accuracy: 69.6370706416
+Train Accuracy: 67.3687621517
+Train Accuracy: 70.1879455606
+Train Accuracy: 65.4893065457
+Train Accuracy: 70.5119896306
+Train Accuracy: 69.7666882696
+Train Accuracy: 70.6740116656
+Train Accuracy: 66.0077770577
+Train Accuracy: 71.0952689566
+Train Accuracy: 67.8548282566
+Train Accuracy: 70.1231367466
+Train Accuracy: 67.4983797797
+Train Accuracy: 67.9844458846
+Train Accuracy: 71.8729747246
+Train Accuracy: 66.7530784187
+Train Accuracy: 68.3084899546
+Train Accuracy: 67.4011665587
+Train Accuracy: 74.0440699935
+Train Accuracy: 68.5677252106
+Train Accuracy: 62.6377187297
+Train Accuracy: 68.2436811406
+Train Accuracy: 69.4426441996
+Train Accuracy: 72.1646143876
+Train Accuracy: 72.8775113415
+Train Accuracy: 73.6876215165
+Train Accuracy: 72.4562540506
+Train Accuracy: 66.2022034997
+Train Accuracy: 71.3869086196
+Train Accuracy: 67.2715489307
+Train Accuracy: 74.4329228775
+Train Accuracy: 67.1743357097
+Train Accuracy: 71.0952689566
+Train Accuracy: 60.2073882048
+Train Accuracy: 72.6506804925
+Train Accuracy: 71.4841218406
+Train Accuracy: 68.2436811406
+Train Accuracy: 65.3272845107
+Train Accuracy: 73.9468567725
+Train Accuracy: 61.5035644848
+Train Accuracy: 66.5262475697
+Train Accuracy: 72.0025923526
+Train Accuracy: 69.3130265716
+Train Accuracy: 71.2248865846
+Train Accuracy: 60.4342190538
+Train Accuracy: 66.2994167207
+Train Accuracy: 70.5119896306
+Train Accuracy: 72.6506804925
+Train Accuracy: 72.7478937135
+Train Accuracy: 64.2903434867
+Train Accuracy: 68.5353208036
+Train Accuracy: 72.4562540506
+Train Accuracy: 66.9799092677
+Train Accuracy: 71.6137394686
+Train Accuracy: 74.5949449125
+Train Accuracy: 74.9837977965
+Train Accuracy: 74.2060920285
+Train Accuracy: 73.7848347375
+Train Accuracy: 73.6228127025
+Train Accuracy: 66.5586519767
+Train Accuracy: 74.1412832145
+Train Accuracy: 73.8496435515
+Train Accuracy: 59.1704471808
+Train Accuracy: 65.1004536617
+Train Accuracy: 67.3363577447
+Train Accuracy: 69.4102397926
+Train Accuracy: 71.3545042126
+Train Accuracy: 69.7990926766
+Train Accuracy: 73.4607906675
+Training Accuracy: 73.4607906675
+Validation Accuracy: 74.269005848
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/unix.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 81.06841612
+Generating Data...
+webmasters
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(2512, 6)
+(278, 6)
+[[  7.62910366e-01   9.95704841e-01   3.48000000e+02   1.44000000e+02
+    2.20000000e+01   1.00000000e+00]
+ [  4.55608845e-01   5.30540866e-01   3.97000000e+02   1.79000000e+02
+    4.00000000e+01   1.00000000e+00]
+ [  8.17922235e-01   9.72850626e-01   1.48000000e+03   1.13000000e+02
+    3.00000000e+00   0.00000000e+00]
+ [  5.16176701e-01   2.87313643e-02   7.92000000e+02   1.85000000e+02
+    6.00000000e+00   3.00000000e+00]
+ [  6.00323677e-01   9.69610420e-01   1.13000000e+02   1.19270000e+04
+    2.00000000e+00   2.10000000e+01]]
+[ 1.  1.  1.  1.  1.]
+[[  7.12482810e-01   9.34717309e-01   1.80000000e+01   1.66000000e+02
+    3.00000000e+00   0.00000000e+00]
+ [  6.50401056e-01   2.15558610e-01   3.51500000e+03   1.00000000e+00
+    1.20000000e+01   0.00000000e+00]
+ [  6.25685632e-01   3.27508991e-01   3.97000000e+02   1.52000000e+02
+    4.00000000e+01   0.00000000e+00]
+ [  1.02541529e-01   1.59773548e-02   1.33000000e+02   1.55000000e+02
+    6.00000000e+00   5.00000000e+00]
+ [  1.68601558e-01   1.39148491e-01   9.25000000e+02   2.38000000e+02
+    4.00000000e+00   0.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 53.7818471338
+Train Accuracy: 53.9012738854
+Train Accuracy: 63.8136942675
+Train Accuracy: 64.4904458599
+Train Accuracy: 65.6847133758
+Train Accuracy: 66.321656051
+Train Accuracy: 67.7149681529
+Train Accuracy: 67.1178343949
+Train Accuracy: 67.3168789809
+Train Accuracy: 67.0780254777
+Train Accuracy: 67.8343949045
+Train Accuracy: 67.5557324841
+Train Accuracy: 68.1926751592
+Train Accuracy: 68.1130573248
+Train Accuracy: 67.9140127389
+Train Accuracy: 68.550955414
+Train Accuracy: 69.148089172
+Train Accuracy: 69.7054140127
+Train Accuracy: 68.8694267516
+Train Accuracy: 69.9044585987
+Train Accuracy: 69.2675159236
+Train Accuracy: 69.7850318471
+Train Accuracy: 68.5907643312
+Train Accuracy: 68.9888535032
+Train Accuracy: 69.5063694268
+Train Accuracy: 70.7802547771
+Train Accuracy: 71.7356687898
+Train Accuracy: 71.1385350318
+Train Accuracy: 72.571656051
+Train Accuracy: 73.4076433121
+Train Accuracy: 74.1242038217
+Train Accuracy: 71.377388535
+Train Accuracy: 74.6417197452
+Train Accuracy: 75.0796178344
+Train Accuracy: 74.601910828
+Train Accuracy: 75.1194267516
+Train Accuracy: 75.0
+Train Accuracy: 75.0
+Train Accuracy: 75.7961783439
+Train Accuracy: 76.0350318471
+Train Accuracy: 76.4729299363
+Train Accuracy: 76.0350318471
+Train Accuracy: 76.1146496815
+Train Accuracy: 76.2738853503
+Train Accuracy: 76.8710191083
+Train Accuracy: 77.0700636943
+Train Accuracy: 77.0302547771
+Train Accuracy: 76.3933121019
+Train Accuracy: 76.6719745223
+Train Accuracy: 68.4315286624
+Train Accuracy: 76.9506369427
+Train Accuracy: 77.3885350318
+Train Accuracy: 76.9108280255
+Train Accuracy: 77.0700636943
+Train Accuracy: 77.627388535
+Train Accuracy: 76.8312101911
+Train Accuracy: 76.9506369427
+Train Accuracy: 76.3535031847
+Train Accuracy: 77.4681528662
+Train Accuracy: 77.5875796178
+Train Accuracy: 77.428343949
+Train Accuracy: 77.9458598726
+Train Accuracy: 77.2691082803
+Train Accuracy: 77.5477707006
+Train Accuracy: 77.2691082803
+Train Accuracy: 77.5079617834
+Train Accuracy: 77.5875796178
+Train Accuracy: 77.826433121
+Train Accuracy: 77.5477707006
+Train Accuracy: 77.7866242038
+Train Accuracy: 78.3439490446
+Train Accuracy: 77.9856687898
+Train Accuracy: 67.5557324841
+Train Accuracy: 76.3535031847
+Train Accuracy: 77.627388535
+Train Accuracy: 76.3933121019
+Train Accuracy: 77.1098726115
+Train Accuracy: 76.8710191083
+Train Accuracy: 77.8662420382
+Train Accuracy: 72.6910828025
+Train Accuracy: 77.9458598726
+Train Accuracy: 78.3439490446
+Train Accuracy: 77.9458598726
+Train Accuracy: 72.1337579618
+Train Accuracy: 75.5175159236
+Train Accuracy: 77.8662420382
+Train Accuracy: 77.5875796178
+Train Accuracy: 76.7117834395
+Train Accuracy: 76.2340764331
+Train Accuracy: 77.2691082803
+Train Accuracy: 78.6624203822
+Train Accuracy: 75.6369426752
+Train Accuracy: 79.1003184713
+Train Accuracy: 78.9012738854
+Train Accuracy: 73.2484076433
+Train Accuracy: 77.1496815287
+Train Accuracy: 78.7818471338
+Train Accuracy: 78.224522293
+Train Accuracy: 77.7866242038
+Train Accuracy: 70.9394904459
+Training Accuracy: 70.9394904459
+Validation Accuracy: 67.2661870504
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/webmasters.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 86.0491709548
+Generating Data...
+wordpress
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(1348, 6)
+(148, 6)
+[[  6.73531592e-02   1.42100999e-01   3.11000000e+02   1.00000000e+00
+    2.00000000e+00   0.00000000e+00]
+ [  9.09434974e-01   6.27151291e-01   1.10700000e+03   1.10700000e+03
+    0.00000000e+00   0.00000000e+00]
+ [  5.99905193e-01   4.67370434e-01   6.12400000e+03   1.00000000e+00
+    2.00000000e+00   0.00000000e+00]
+ [  9.05239522e-01   5.41365414e-01   8.85000000e+02   9.00000000e+00
+    2.00000000e+00   0.00000000e+00]
+ [  8.04652452e-01   8.08335988e-01   2.13000000e+02   1.71000000e+02
+    2.20000000e+01   1.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+[[  7.09959328e-01   5.91208829e-01   5.33000000e+02   5.33000000e+02
+    0.00000000e+00   0.00000000e+00]
+ [  7.29165077e-01   9.25041251e-01   1.43810000e+04   1.00000000e+00
+    1.00000000e+00   0.00000000e+00]
+ [  4.65920389e-01   7.83779137e-02   1.29000000e+02   1.00000000e+00
+    1.00000000e+00   0.00000000e+00]
+ [  8.51555943e-01   8.83521673e-01   6.86000000e+02   1.55000000e+02
+    5.00000000e+00   0.00000000e+00]
+ [  6.30074978e-01   8.78855484e-01   2.29000000e+02   1.40000000e+02
+    0.00000000e+00   0.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 51.2611275964
+Train Accuracy: 55.7863501484
+Train Accuracy: 54.3768545994
+Train Accuracy: 53.4866468843
+Train Accuracy: 53.9317507418
+Train Accuracy: 53.0415430267
+Train Accuracy: 51.9287833828
+Train Accuracy: 52.2997032641
+Train Accuracy: 52.1513353116
+Train Accuracy: 52.5222551929
+Train Accuracy: 52.6706231454
+Train Accuracy: 51.8545994065
+Train Accuracy: 53.412462908
+Train Accuracy: 50.6676557864
+Train Accuracy: 51.6320474777
+Train Accuracy: 52.2255192878
+Train Accuracy: 55.7863501484
+Train Accuracy: 55.8605341246
+Train Accuracy: 56.9732937685
+Train Accuracy: 55.5637982196
+Train Accuracy: 60.1632047478
+Train Accuracy: 58.9020771513
+Train Accuracy: 59.7922848665
+Train Accuracy: 59.5697329377
+Train Accuracy: 59.1988130564
+Train Accuracy: 62.9080118694
+Train Accuracy: 61.943620178
+Train Accuracy: 57.7893175074
+Train Accuracy: 60.0890207715
+Train Accuracy: 62.5370919881
+Train Accuracy: 59.7922848665
+Train Accuracy: 62.6112759644
+Train Accuracy: 65.2077151335
+Train Accuracy: 65.5786350148
+Train Accuracy: 54.9703264095
+Train Accuracy: 58.234421365
+Train Accuracy: 58.7537091988
+Train Accuracy: 63.4272997033
+Train Accuracy: 65.9495548961
+Train Accuracy: 66.0979228487
+Train Accuracy: 67.8783382789
+Train Accuracy: 66.3204747774
+Train Accuracy: 67.4332344214
+Train Accuracy: 67.0623145401
+Train Accuracy: 60.9792284866
+Train Accuracy: 67.3590504451
+Train Accuracy: 68.175074184
+Train Accuracy: 68.175074184
+Train Accuracy: 68.1008902077
+Train Accuracy: 61.2759643917
+Train Accuracy: 65.3560830861
+Train Accuracy: 59.7181008902
+Train Accuracy: 65.9495548961
+Train Accuracy: 69.3620178042
+Train Accuracy: 67.5816023739
+Train Accuracy: 66.3204747774
+Train Accuracy: 66.9139465875
+Train Accuracy: 69.2136498516
+Train Accuracy: 58.8278931751
+Train Accuracy: 65.2077151335
+Train Accuracy: 68.9169139466
+Train Accuracy: 69.5103857567
+Train Accuracy: 66.3204747774
+Train Accuracy: 69.5103857567
+Train Accuracy: 70.2522255193
+Train Accuracy: 68.471810089
+Train Accuracy: 70.3264094955
+Train Accuracy: 62.6854599407
+Train Accuracy: 68.471810089
+Train Accuracy: 69.5845697329
+Train Accuracy: 70.178041543
+Train Accuracy: 69.9554896142
+Train Accuracy: 63.056379822
+Train Accuracy: 63.353115727
+Train Accuracy: 63.9465875371
+Train Accuracy: 71.587537092
+Train Accuracy: 63.8724035608
+Train Accuracy: 64.1691394659
+Train Accuracy: 70.178041543
+Train Accuracy: 70.7715133531
+Train Accuracy: 70.7715133531
+Train Accuracy: 67.5074183976
+Train Accuracy: 67.1364985163
+Train Accuracy: 61.7952522255
+Train Accuracy: 63.4272997033
+Train Accuracy: 63.5756676558
+Train Accuracy: 64.762611276
+Train Accuracy: 65.5044510386
+Train Accuracy: 65.3560830861
+Train Accuracy: 67.5816023739
+Train Accuracy: 70.7715133531
+Train Accuracy: 63.8724035608
+Train Accuracy: 72.6261127596
+Train Accuracy: 73.590504451
+Train Accuracy: 72.4777448071
+Train Accuracy: 73.293768546
+Train Accuracy: 70.9940652819
+Train Accuracy: 73.6646884273
+Train Accuracy: 69.6587537092
+Train Accuracy: 67.2848664688
+Training Accuracy: 67.2848664688
+Validation Accuracy: 70.2702702703
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/wordpress.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 70.502901354

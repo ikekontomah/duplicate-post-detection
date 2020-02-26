@@ -1,0 +1,997 @@
+(6867p2) dhcp-18-111-54-39:6867-project KT$ python LDA_feature_extract.py 
+Generating Data...
+android
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.69407672  0.75057093  0.66078027  0.77482589]
+ [ 0.59039038  0.78974959  0.99755741  0.72855093]
+ [ 0.82777339  0.3212469   0.52136469  0.88751059]
+ [ 0.68997324  0.95265191  0.86085483  0.62203298]
+ [ 0.70630956  0.83782974  0.37848778  0.62877218]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.47298136  0.01831422  0.68257424  0.32263041]
+ [ 0.52119392  0.44399228  0.05704385  0.91092743]
+ [ 0.65567726  0.73039476  0.95096362  0.96176476]
+ [ 0.7808001   0.9895373   0.09318094  0.93865885]
+ [ 0.56496012  0.91420617  0.45471982  0.15492272]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 84.046692607
+Train Accuracy: 84.1115434501
+Train Accuracy: 84.6303501946
+Train Accuracy: 85.084306096
+Train Accuracy: 84.8897535668
+Train Accuracy: 85.149156939
+Train Accuracy: 85.3761348898
+Train Accuracy: 85.084306096
+Train Accuracy: 85.2788586252
+Train Accuracy: 85.4409857328
+Train Accuracy: 85.4085603113
+Train Accuracy: 85.3761348898
+Train Accuracy: 85.4734111543
+Train Accuracy: 85.6031128405
+Train Accuracy: 85.5382619974
+Train Accuracy: 85.5706874189
+Train Accuracy: 85.5382619974
+Train Accuracy: 85.4734111543
+Train Accuracy: 85.3437094682
+Train Accuracy: 85.6679636835
+Train Accuracy: 85.7003891051
+Train Accuracy: 85.6679636835
+Train Accuracy: 85.7003891051
+Train Accuracy: 85.7328145266
+Train Accuracy: 85.6679636835
+Train Accuracy: 85.7328145266
+Train Accuracy: 85.5706874189
+Train Accuracy: 85.7003891051
+Train Accuracy: 85.7976653696
+Train Accuracy: 85.7003891051
+Train Accuracy: 85.1815823606
+Train Accuracy: 85.4409857328
+Train Accuracy: 85.7328145266
+Train Accuracy: 85.7328145266
+Train Accuracy: 85.4085603113
+Train Accuracy: 85.7003891051
+Train Accuracy: 85.7652399481
+Train Accuracy: 85.7328145266
+Train Accuracy: 85.7328145266
+Train Accuracy: 85.7652399481
+Train Accuracy: 85.6679636835
+Train Accuracy: 85.7003891051
+Train Accuracy: 85.7652399481
+Train Accuracy: 85.7652399481
+Train Accuracy: 85.7652399481
+Train Accuracy: 85.7652399481
+Train Accuracy: 85.2788586252
+Train Accuracy: 85.7003891051
+Train Accuracy: 85.5382619974
+Train Accuracy: 85.7976653696
+Training Accuracy: 85.7976653696
+Validation Accuracy: 84.5029239766
+Generating Data...
+english
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.50556833  0.51573849  0.47351058  0.42610613]
+ [ 0.64659697  0.38851285  0.07218029  0.04631557]
+ [ 0.76426339  0.58890089  0.73143655  0.90248962]
+ [ 0.11615086  0.07706252  0.13043478  0.69812065]
+ [ 0.36004049  0.03517912  1.          0.18669849]]
+[ 1.  1.  1.  1.  1.]
+[[-0.08685156  0.04104771  0.07624042  0.5560801 ]
+ [ 0.6761964   0.67230035  0.51630815  0.92758398]
+ [ 0.00455045  0.82940051  0.41702883  0.08931249]
+ [ 0.24895929  0.4620752   0.33228888  0.65023406]
+ [ 0.26370493  0.56189337  0.51630815  0.64284877]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 63.2781267847
+Train Accuracy: 65.1627641348
+Train Accuracy: 64.9771559109
+Train Accuracy: 65.0913763564
+Train Accuracy: 65.1484865791
+Train Accuracy: 65.4197601371
+Train Accuracy: 65.1913192461
+Train Accuracy: 65.5054254712
+Train Accuracy: 65.5054254712
+Train Accuracy: 65.4911479155
+Train Accuracy: 65.334094803
+Train Accuracy: 65.062821245
+Train Accuracy: 65.3483723587
+Train Accuracy: 65.7195888064
+Train Accuracy: 65.4054825814
+Train Accuracy: 65.2912621359
+Train Accuracy: 65.4911479155
+Train Accuracy: 65.3912050257
+Train Accuracy: 65.5482581382
+Train Accuracy: 65.3055396916
+Train Accuracy: 65.6767561393
+Train Accuracy: 65.4625928041
+Train Accuracy: 65.5197030268
+Train Accuracy: 65.691033695
+Train Accuracy: 65.4340376927
+Train Accuracy: 65.5482581382
+Train Accuracy: 65.5197030268
+Train Accuracy: 65.5197030268
+Train Accuracy: 65.3626499143
+Train Accuracy: 65.6053683609
+Train Accuracy: 65.691033695
+Train Accuracy: 65.5054254712
+Train Accuracy: 65.4197601371
+Train Accuracy: 65.4054825814
+Train Accuracy: 65.691033695
+Train Accuracy: 65.7338663621
+Train Accuracy: 65.6624785837
+Train Accuracy: 65.5054254712
+Train Accuracy: 65.7766990291
+Train Accuracy: 65.8338092519
+Train Accuracy: 65.4768703598
+Train Accuracy: 65.7624214734
+Train Accuracy: 65.6053683609
+Train Accuracy: 65.5339805825
+Train Accuracy: 65.648201028
+Train Accuracy: 65.5910908053
+Train Accuracy: 65.5197030268
+Train Accuracy: 65.5339805825
+Train Accuracy: 65.5768132496
+Train Accuracy: 65.648201028
+Training Accuracy: 65.648201028
+Validation Accuracy: 65.8097686375
+Generating Data...
+gaming
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.39757726  0.68961915  0.54869188  0.93202092]
+ [ 0.83725572  0.50038958  0.07950682  0.93767028]
+ [ 0.69347769  0.32160246  0.99112547  0.61489176]
+ [ 0.56876147  0.36519883  0.45108718  0.09036534]
+ [ 0.67177147  0.36986971  0.40298507  0.1606741 ]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.69503838  0.90177273  0.3866946   0.07624042]
+ [ 0.76536143  0.96123209  0.1131937   0.87368223]
+ [ 0.50982118  0.83228875  0.83083529  0.74493608]
+ [ 0.73647743  0.10078925  0.4472136   0.09046625]
+ [ 0.26069102  0.21687233  0.72588269  0.64918263]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 84.3079922027
+Train Accuracy: 85.3070175439
+Train Accuracy: 85.2826510721
+Train Accuracy: 85.3557504873
+Train Accuracy: 85.3557504873
+Train Accuracy: 85.5019493177
+Train Accuracy: 85.6481481481
+Train Accuracy: 85.5263157895
+Train Accuracy: 85.5750487329
+Train Accuracy: 85.4288499025
+Train Accuracy: 85.11208577
+Train Accuracy: 85.477582846
+Train Accuracy: 85.5506822612
+Train Accuracy: 85.477582846
+Train Accuracy: 85.014619883
+Train Accuracy: 85.5263157895
+Train Accuracy: 85.5506822612
+Train Accuracy: 85.1608187135
+Train Accuracy: 85.477582846
+Train Accuracy: 85.5506822612
+Train Accuracy: 85.5019493177
+Train Accuracy: 85.6481481481
+Train Accuracy: 85.6968810916
+Train Accuracy: 85.7212475634
+Train Accuracy: 85.4532163743
+Train Accuracy: 85.6481481481
+Train Accuracy: 85.5019493177
+Train Accuracy: 85.6968810916
+Train Accuracy: 85.6968810916
+Train Accuracy: 85.6968810916
+Train Accuracy: 85.4044834308
+Train Accuracy: 85.5019493177
+Train Accuracy: 85.5994152047
+Train Accuracy: 85.5750487329
+Train Accuracy: 85.6968810916
+Train Accuracy: 85.7699805068
+Train Accuracy: 85.7456140351
+Train Accuracy: 85.8187134503
+Train Accuracy: 85.7456140351
+Train Accuracy: 85.5019493177
+Train Accuracy: 85.7943469786
+Train Accuracy: 85.6237816764
+Train Accuracy: 85.7456140351
+Train Accuracy: 85.7456140351
+Train Accuracy: 85.6481481481
+Train Accuracy: 85.5750487329
+Train Accuracy: 85.7212475634
+Train Accuracy: 85.5750487329
+Train Accuracy: 85.5019493177
+Train Accuracy: 85.477582846
+Training Accuracy: 85.477582846
+Validation Accuracy: 84.8017621145
+Generating Data...
+gis
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.55702406  0.64102721  0.16837651  0.78095393]
+ [ 0.36047521  0.79828598  0.63685225  0.88922024]
+ [ 0.86757332  0.59812717  0.90177273  0.94673318]
+ [ 0.75158817  0.9148328   0.64485071  0.77784823]
+ [ 0.57260346  0.93015271  0.6930865   0.94976058]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.75602835  0.9229516   0.1940868   0.38079241]
+ [ 0.61950821  0.60967902  0.79029028  0.56770391]
+ [ 0.57544583  0.92541382  0.40855873  0.85458265]
+ [ 0.66292638  0.51180041  0.88290107  0.68987726]
+ [ 0.85817349  0.69999625  0.87073118  0.80451283]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 82.3383084577
+Train Accuracy: 85.3233830846
+Train Accuracy: 85.1741293532
+Train Accuracy: 86.0696517413
+Train Accuracy: 86.5174129353
+Train Accuracy: 86.7164179104
+Train Accuracy: 86.4676616915
+Train Accuracy: 86.7164179104
+Train Accuracy: 86.1691542289
+Train Accuracy: 86.4676616915
+Train Accuracy: 86.6169154229
+Train Accuracy: 85.8208955224
+Train Accuracy: 86.7164179104
+Train Accuracy: 87.0149253731
+Train Accuracy: 86.9154228856
+Train Accuracy: 86.5174129353
+Train Accuracy: 87.0149253731
+Train Accuracy: 86.8656716418
+Train Accuracy: 86.7164179104
+Train Accuracy: 87.0149253731
+Train Accuracy: 86.9651741294
+Train Accuracy: 86.6169154229
+Train Accuracy: 86.9154228856
+Train Accuracy: 86.8656716418
+Train Accuracy: 86.9651741294
+Train Accuracy: 86.6169154229
+Train Accuracy: 86.9651741294
+Train Accuracy: 86.8656716418
+Train Accuracy: 86.6666666667
+Train Accuracy: 87.0149253731
+Train Accuracy: 87.0149253731
+Train Accuracy: 87.0149253731
+Train Accuracy: 86.9154228856
+Train Accuracy: 87.0149253731
+Train Accuracy: 86.815920398
+Train Accuracy: 86.9651741294
+Train Accuracy: 86.815920398
+Train Accuracy: 87.0149253731
+Train Accuracy: 87.0149253731
+Train Accuracy: 86.8656716418
+Train Accuracy: 86.8656716418
+Train Accuracy: 86.9651741294
+Train Accuracy: 86.7661691542
+Train Accuracy: 86.7164179104
+Train Accuracy: 86.5671641791
+Train Accuracy: 86.9154228856
+Train Accuracy: 86.9651741294
+Train Accuracy: 86.9651741294
+Train Accuracy: 87.0149253731
+Train Accuracy: 86.815920398
+Training Accuracy: 86.815920398
+Validation Accuracy: 85.1351351351
+Generating Data...
+mathematica
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.54309344  0.50666594  0.7379965   0.08056431]
+ [ 0.64325315  0.59530835  0.82412732  0.59130993]
+ [ 0.46416259  0.43235196  0.04185917  0.50802547]
+ [ 0.40046698  0.58142833  0.08084521  0.6358889 ]
+ [ 0.35118687  0.80364992  0.82683983  0.52373151]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.24840906  0.77993078  0.4472136   0.41621665]
+ [ 0.51565117  0.02041888  0.05388336  0.01916889]
+ [ 0.48696816  0.56940366  0.74267123  0.62921114]
+ [ 0.26562291  0.44792354  0.89709793  0.58213786]
+ [ 0.49924669  0.39941025  0.08482781  0.93921748]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 76.8016194332
+Train Accuracy: 78.8663967611
+Train Accuracy: 78.7044534413
+Train Accuracy: 78.2995951417
+Train Accuracy: 78.9068825911
+Train Accuracy: 78.7044534413
+Train Accuracy: 78.6639676113
+Train Accuracy: 78.7449392713
+Train Accuracy: 78.7449392713
+Train Accuracy: 79.0688259109
+Train Accuracy: 78.5829959514
+Train Accuracy: 78.7449392713
+Train Accuracy: 78.7449392713
+Train Accuracy: 79.1902834008
+Train Accuracy: 79.1093117409
+Train Accuracy: 78.6234817814
+Train Accuracy: 78.7449392713
+Train Accuracy: 79.2712550607
+Train Accuracy: 79.3927125506
+Train Accuracy: 78.5020242915
+Train Accuracy: 78.4615384615
+Train Accuracy: 78.5425101215
+Train Accuracy: 78.8259109312
+Train Accuracy: 79.2307692308
+Train Accuracy: 78.9473684211
+Train Accuracy: 79.0688259109
+Train Accuracy: 79.028340081
+Train Accuracy: 78.987854251
+Train Accuracy: 79.028340081
+Train Accuracy: 79.028340081
+Train Accuracy: 79.0688259109
+Train Accuracy: 78.8259109312
+Train Accuracy: 78.987854251
+Train Accuracy: 78.5020242915
+Train Accuracy: 79.2712550607
+Train Accuracy: 79.1497975709
+Train Accuracy: 78.987854251
+Train Accuracy: 79.028340081
+Train Accuracy: 78.5020242915
+Train Accuracy: 79.1902834008
+Train Accuracy: 78.987854251
+Train Accuracy: 79.0688259109
+Train Accuracy: 78.987854251
+Train Accuracy: 79.1093117409
+Train Accuracy: 79.2307692308
+Train Accuracy: 79.1093117409
+Train Accuracy: 78.8663967611
+Train Accuracy: 79.1902834008
+Train Accuracy: 79.028340081
+Train Accuracy: 79.2307692308
+Training Accuracy: 79.2307692308
+Validation Accuracy: 79.5620437956
+Generating Data...
+physics
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.44463763  0.32449828  0.40118204  0.90486236]
+ [ 0.18524659  0.85582429  0.74600385  0.84638332]
+ [ 0.83520937  0.9256911   0.99999989  0.90593407]
+ [ 0.63808507  0.94351157  0.97262686  0.91833754]
+ [ 0.29096457  0.59187688  0.47351058  0.93768996]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.81050885  0.50233701  0.91925714  0.41747477]
+ [ 0.56643587  0.06802591  0.25977002  0.23984519]
+ [ 0.38815656  0.66498212  0.065407    0.70727531]
+ [ 0.54327983  0.63640245  0.09603469  0.27740639]
+ [ 0.23590767  0.46395235  0.73143655  0.84343756]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 85.6376975169
+Train Accuracy: 86.5970654628
+Train Accuracy: 86.9074492099
+Train Accuracy: 86.9356659142
+Train Accuracy: 87.1613995485
+Train Accuracy: 87.3306997743
+Train Accuracy: 87.4717832957
+Train Accuracy: 87.5282167043
+Train Accuracy: 87.4717832957
+Train Accuracy: 87.4435665914
+Train Accuracy: 87.3589164786
+Train Accuracy: 87.2742663657
+Train Accuracy: 87.4435665914
+Train Accuracy: 87.5846501129
+Train Accuracy: 87.3871331828
+Train Accuracy: 87.5282167043
+Train Accuracy: 87.2178329571
+Train Accuracy: 87.5282167043
+Train Accuracy: 87.3871331828
+Train Accuracy: 87.4717832957
+Train Accuracy: 87.5564334086
+Train Accuracy: 87.7257336343
+Train Accuracy: 87.69751693
+Train Accuracy: 87.6693002257
+Train Accuracy: 87.8103837472
+Train Accuracy: 87.4435665914
+Train Accuracy: 87.4153498871
+Train Accuracy: 87.4435665914
+Train Accuracy: 87.6693002257
+Train Accuracy: 87.4153498871
+Train Accuracy: 87.5
+Train Accuracy: 87.7257336343
+Train Accuracy: 87.4717832957
+Train Accuracy: 87.5
+Train Accuracy: 87.4717832957
+Train Accuracy: 87.8386004515
+Train Accuracy: 87.8103837472
+Train Accuracy: 87.4153498871
+Train Accuracy: 87.8668171558
+Train Accuracy: 87.6128668172
+Train Accuracy: 87.8668171558
+Train Accuracy: 87.4435665914
+Train Accuracy: 87.8103837472
+Train Accuracy: 87.4717832957
+Train Accuracy: 87.5564334086
+Train Accuracy: 87.69751693
+Train Accuracy: 87.8103837472
+Train Accuracy: 87.5
+Train Accuracy: 87.8103837472
+Train Accuracy: 87.4435665914
+Training Accuracy: 87.4435665914
+Validation Accuracy: 87.2448979592
+Generating Data...
+programmers
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.69908166  0.03059691  0.27565892  0.98448931]
+ [ 0.58521497  0.78074802  0.07442463  0.43392619]
+ [ 0.3985332   0.08134317  0.72760688  0.59396097]
+ [ 0.32109606  0.19699088  0.35437465  0.68427425]
+ [ 0.34796908  0.42200248  0.82034002  0.67892525]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.30748475  0.70396978  0.07165008  0.64917761]
+ [ 0.53276187  0.19317967  0.4661985   0.83881349]
+ [ 0.49867725  0.14991492  0.07080471  0.48141102]
+ [ 0.42295897  0.28097836  0.42664092  0.10802702]
+ [ 0.72963047  0.03312937  0.09603469  0.06455086]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 67.8388746803
+Train Accuracy: 81.1700767263
+Train Accuracy: 82.73657289
+Train Accuracy: 83.0562659847
+Train Accuracy: 83.0242966752
+Train Accuracy: 83.2800511509
+Train Accuracy: 83.1202046036
+Train Accuracy: 83.5038363171
+Train Accuracy: 83.4718670077
+Train Accuracy: 83.4398976982
+Train Accuracy: 83.3439897698
+Train Accuracy: 83.3759590793
+Train Accuracy: 83.2800511509
+Train Accuracy: 83.3759590793
+Train Accuracy: 83.2480818414
+Train Accuracy: 83.3120204604
+Train Accuracy: 83.3120204604
+Train Accuracy: 83.2480818414
+Train Accuracy: 83.1841432225
+Train Accuracy: 83.3120204604
+Train Accuracy: 83.4079283887
+Train Accuracy: 83.3120204604
+Train Accuracy: 83.0242966752
+Train Accuracy: 83.3759590793
+Train Accuracy: 83.4079283887
+Train Accuracy: 83.4079283887
+Train Accuracy: 83.152173913
+Train Accuracy: 83.2480818414
+Train Accuracy: 83.4079283887
+Train Accuracy: 83.1841432225
+Train Accuracy: 83.4718670077
+Train Accuracy: 83.3120204604
+Train Accuracy: 83.2480818414
+Train Accuracy: 83.3759590793
+Train Accuracy: 83.3759590793
+Train Accuracy: 83.3439897698
+Train Accuracy: 83.5038363171
+Train Accuracy: 83.3439897698
+Train Accuracy: 83.4718670077
+Train Accuracy: 83.4718670077
+Train Accuracy: 83.4398976982
+Train Accuracy: 83.4079283887
+Train Accuracy: 83.3439897698
+Train Accuracy: 83.4718670077
+Train Accuracy: 83.4079283887
+Train Accuracy: 83.3759590793
+Train Accuracy: 83.2800511509
+Train Accuracy: 83.3120204604
+Train Accuracy: 83.3439897698
+Train Accuracy: 83.4398976982
+Training Accuracy: 83.4398976982
+Validation Accuracy: 82.6589595376
+Generating Data...
+stats
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.28679553  0.54248265  0.33198793  0.05059874]
+ [ 0.4453125   0.71122416  0.94320668  0.88607745]
+ [ 0.72922564  0.70404316  0.31457763  0.95924105]
+ [ 0.39073637  0.08011742  0.04384269  0.42999043]
+ [ 0.58943492  0.6465734   0.15937673  0.65634084]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.63854688  0.80912588  0.9708171   0.80044815]
+ [ 0.79359472  0.59426344  0.63412589  0.88508831]
+ [ 0.66901857  0.7875015   0.06628302  0.93990938]
+ [ 0.38568711  0.50958619  0.17214308  0.18664173]
+ [ 0.48190132  0.41588008  0.78507635  0.89325931]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 50.0
+Train Accuracy: 50.0
+Train Accuracy: 79.0909090909
+Train Accuracy: 81.8787878788
+Train Accuracy: 82.7878787879
+Train Accuracy: 83.0303030303
+Train Accuracy: 83.2727272727
+Train Accuracy: 82.6060606061
+Train Accuracy: 83.6363636364
+Train Accuracy: 83.3939393939
+Train Accuracy: 83.5151515152
+Train Accuracy: 82.9696969697
+Train Accuracy: 83.0303030303
+Train Accuracy: 83.4545454545
+Train Accuracy: 83.2727272727
+Train Accuracy: 83.3333333333
+Train Accuracy: 83.7575757576
+Train Accuracy: 83.5151515152
+Train Accuracy: 83.7575757576
+Train Accuracy: 83.5151515152
+Train Accuracy: 83.696969697
+Train Accuracy: 83.7575757576
+Train Accuracy: 83.5757575758
+Train Accuracy: 83.7575757576
+Train Accuracy: 84.1212121212
+Train Accuracy: 83.5757575758
+Train Accuracy: 83.6363636364
+Train Accuracy: 83.9393939394
+Train Accuracy: 83.8787878788
+Train Accuracy: 83.8787878788
+Train Accuracy: 84.0
+Train Accuracy: 84.1212121212
+Train Accuracy: 84.0606060606
+Train Accuracy: 84.1212121212
+Train Accuracy: 84.0
+Train Accuracy: 84.1818181818
+Train Accuracy: 84.3636363636
+Train Accuracy: 84.4242424242
+Train Accuracy: 84.1818181818
+Train Accuracy: 83.9393939394
+Train Accuracy: 84.1818181818
+Train Accuracy: 84.3636363636
+Train Accuracy: 84.2424242424
+Train Accuracy: 84.3636363636
+Train Accuracy: 84.303030303
+Train Accuracy: 83.8787878788
+Train Accuracy: 84.3636363636
+Train Accuracy: 83.8181818182
+Train Accuracy: 84.4242424242
+Train Accuracy: 84.2424242424
+Training Accuracy: 84.2424242424
+Validation Accuracy: 79.1208791209
+Generating Data...
+tex
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.31833211  0.64041134  0.52306372  0.25574564]
+ [ 0.35447001  0.80605401  0.96011493  0.87178747]
+ [ 0.49459293  0.43789423  0.40298508  0.53798468]
+ [ 0.47649801  0.70220041  0.1326149   0.58678776]
+ [ 0.50192958  0.57980873  0.47351058  0.88842107]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.33525753  0.47357267  0.23310662  0.66471869]
+ [ 0.90433598  0.98432924  0.74902434  0.97431616]
+ [ 0.58352572  0.14935771  0.11015202  0.88548525]
+ [ 0.24290477  0.9072738   0.12433397  0.95513305]
+ [ 0.36839151  0.77138044  0.07330565  0.54436043]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 83.2620320856
+Train Accuracy: 83.6470588235
+Train Accuracy: 83.9251336898
+Train Accuracy: 83.7219251337
+Train Accuracy: 83.9037433155
+Train Accuracy: 83.7005347594
+Train Accuracy: 83.8502673797
+Train Accuracy: 83.614973262
+Train Accuracy: 83.8395721925
+Train Accuracy: 83.7219251337
+Train Accuracy: 83.7005347594
+Train Accuracy: 83.5721925134
+Train Accuracy: 83.8609625668
+Train Accuracy: 83.7647058824
+Train Accuracy: 83.6042780749
+Train Accuracy: 83.807486631
+Train Accuracy: 83.8288770053
+Train Accuracy: 83.9893048128
+Train Accuracy: 83.9893048128
+Train Accuracy: 83.8395721925
+Train Accuracy: 83.6256684492
+Train Accuracy: 83.7326203209
+Train Accuracy: 83.7860962567
+Train Accuracy: 83.8181818182
+Train Accuracy: 83.7754010695
+Train Accuracy: 83.7326203209
+Train Accuracy: 83.8181818182
+Train Accuracy: 83.7647058824
+Train Accuracy: 83.7647058824
+Train Accuracy: 83.5828877005
+Train Accuracy: 83.8181818182
+Train Accuracy: 83.8181818182
+Train Accuracy: 83.7112299465
+Train Accuracy: 83.9251336898
+Train Accuracy: 83.7860962567
+Train Accuracy: 83.8288770053
+Train Accuracy: 83.8181818182
+Train Accuracy: 83.871657754
+Train Accuracy: 83.9251336898
+Train Accuracy: 83.871657754
+Train Accuracy: 83.8181818182
+Train Accuracy: 83.8395721925
+Train Accuracy: 83.8502673797
+Train Accuracy: 83.9251336898
+Train Accuracy: 83.9786096257
+Train Accuracy: 83.871657754
+Train Accuracy: 83.871657754
+Train Accuracy: 83.5935828877
+Train Accuracy: 83.8823529412
+Train Accuracy: 83.7967914439
+Training Accuracy: 83.7967914439
+Validation Accuracy: 84.8747591522
+Generating Data...
+unix
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.89766812  0.88493297  0.85094721  0.94609123]
+ [ 0.97197402  1.          0.63685225  0.99919364]
+ [ 0.59794331  0.50750419  0.74902434  0.79048852]
+ [ 0.69394064  0.3100173   0.4981152   0.21723326]
+ [ 0.42364588  0.47299531  0.62159689  0.63197073]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.7927745   0.79571935  0.61442356  0.9124959 ]
+ [ 0.74523848  0.69147646  0.9164543   0.82568508]
+ [ 0.49351132  0.32072508  0.65360869  0.38569559]
+ [ 0.40838036  0.45407482  0.10275261  0.41835764]
+ [ 0.61976916  0.89916409  0.54526293  0.33026426]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 72.9747245625
+Train Accuracy: 82.8580686973
+Train Accuracy: 83.6681788723
+Train Accuracy: 85.7744653273
+Train Accuracy: 86.2605314323
+Train Accuracy: 86.3253402463
+Train Accuracy: 86.5197666883
+Train Accuracy: 86.4873622813
+Train Accuracy: 86.9410239793
+Train Accuracy: 86.4225534673
+Train Accuracy: 86.3901490603
+Train Accuracy: 86.9410239793
+Train Accuracy: 87.1030460143
+Train Accuracy: 87.2326636423
+Train Accuracy: 86.6169799093
+Train Accuracy: 86.8438107583
+Train Accuracy: 87.2002592353
+Train Accuracy: 86.6493843163
+Train Accuracy: 87.2326636423
+Train Accuracy: 86.7141931303
+Train Accuracy: 87.1678548283
+Train Accuracy: 87.0706416073
+Train Accuracy: 86.8114063513
+Train Accuracy: 87.0058327933
+Train Accuracy: 86.8762151653
+Train Accuracy: 87.2974724563
+Train Accuracy: 87.3298768633
+Train Accuracy: 87.3298768633
+Train Accuracy: 87.0058327933
+Train Accuracy: 87.2974724563
+Train Accuracy: 86.6817887233
+Train Accuracy: 87.3622812703
+Train Accuracy: 87.2326636423
+Train Accuracy: 86.9410239793
+Train Accuracy: 87.3946856773
+Train Accuracy: 87.3946856773
+Train Accuracy: 87.1354504213
+Train Accuracy: 87.1678548283
+Train Accuracy: 87.1678548283
+Train Accuracy: 87.5243033052
+Train Accuracy: 87.4594944913
+Train Accuracy: 87.4594944913
+Train Accuracy: 87.2650680493
+Train Accuracy: 87.2650680493
+Train Accuracy: 87.3622812703
+Train Accuracy: 87.4270900843
+Train Accuracy: 87.2974724563
+Train Accuracy: 86.8762151653
+Train Accuracy: 87.2974724563
+Train Accuracy: 87.4270900843
+Training Accuracy: 87.4270900843
+Validation Accuracy: 84.2105263158
+Generating Data...
+webmasters
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.47827441  0.75276524  0.87204974  0.99880883]
+ [ 0.97259182  0.99028441  1.          0.99824209]
+ [ 0.6114701   0.99655783  0.42601457  0.99509711]
+ [ 0.54730386  0.44442047  0.73301748  0.62937394]
+ [ 0.87412876  0.92709233  0.83572866  0.65987988]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.61080492  0.01968189  0.86912097  0.01583828]
+ [ 0.63717723  0.8045725   0.85853891  0.73170398]
+ [ 0.37934995  0.42062313  0.85594318  0.99887867]
+ [ 0.63988435  0.44476584  0.67927266  0.69298576]
+ [ 0.43002909  0.51679166  0.83177464  0.8850781 ]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 80.0955414013
+Train Accuracy: 81.9267515924
+Train Accuracy: 82.2850318471
+Train Accuracy: 82.6831210191
+Train Accuracy: 83.0015923567
+Train Accuracy: 83.1210191083
+Train Accuracy: 83.3996815287
+Train Accuracy: 83.3598726115
+Train Accuracy: 83.3598726115
+Train Accuracy: 83.2006369427
+Train Accuracy: 83.2006369427
+Train Accuracy: 83.2006369427
+Train Accuracy: 83.4394904459
+Train Accuracy: 83.2006369427
+Train Accuracy: 83.4792993631
+Train Accuracy: 83.5191082803
+Train Accuracy: 83.5589171975
+Train Accuracy: 83.3996815287
+Train Accuracy: 83.4792993631
+Train Accuracy: 83.3996815287
+Train Accuracy: 83.5987261146
+Train Accuracy: 83.5987261146
+Train Accuracy: 83.5589171975
+Train Accuracy: 83.6385350318
+Train Accuracy: 83.678343949
+Train Accuracy: 83.6385350318
+Train Accuracy: 83.7579617834
+Train Accuracy: 83.9570063694
+Train Accuracy: 83.7977707006
+Train Accuracy: 83.7181528662
+Train Accuracy: 83.7579617834
+Train Accuracy: 83.7579617834
+Train Accuracy: 83.7181528662
+Train Accuracy: 83.5191082803
+Train Accuracy: 83.9968152866
+Train Accuracy: 83.7977707006
+Train Accuracy: 83.7181528662
+Train Accuracy: 83.7977707006
+Train Accuracy: 83.9171974522
+Train Accuracy: 83.5191082803
+Train Accuracy: 83.7977707006
+Train Accuracy: 83.7977707006
+Train Accuracy: 83.7181528662
+Train Accuracy: 83.8375796178
+Train Accuracy: 84.0366242038
+Train Accuracy: 83.678343949
+Train Accuracy: 83.5987261146
+Train Accuracy: 83.9968152866
+Train Accuracy: 83.9570063694
+Train Accuracy: 83.7579617834
+Training Accuracy: 83.7579617834
+Validation Accuracy: 83.4532374101
+Generating Data...
+wordpress
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.86596012  0.75241038  0.06282115  0.8873838 ]
+ [ 0.53760278  0.36827712  0.05351748  0.96082635]
+ [ 0.8835243   0.18528418  0.82947176  0.93811326]
+ [ 0.54932839  0.9099803   0.05395605  0.06802563]
+ [ 0.18717875  0.93953634  0.04455652  0.88713368]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.63171643  0.52209673  0.04779818  0.68300888]
+ [ 0.38037714  0.54893827  0.71157837  0.77801916]
+ [ 0.98481971  0.99932166  0.55302547  0.97729899]
+ [ 0.39665624  0.4329909   0.68890049  0.62564181]
+ [ 0.53323317  0.90252577  0.85535957  0.8509522 ]]
+[ 1.  1.  1.  1.  1.]
+Training neural_network...
+Train Accuracy: 64.9851632047
+Train Accuracy: 72.1068249258
+Train Accuracy: 76.2611275964
+Train Accuracy: 77.0029673591
+Train Accuracy: 77.5222551929
+Train Accuracy: 78.8575667656
+Train Accuracy: 79.5252225519
+Train Accuracy: 79.9703264095
+Train Accuracy: 79.4510385757
+Train Accuracy: 79.5994065282
+Train Accuracy: 79.9703264095
+Train Accuracy: 79.5994065282
+Train Accuracy: 80.1928783383
+Train Accuracy: 80.2670623145
+Train Accuracy: 79.6735905045
+Train Accuracy: 80.2670623145
+Train Accuracy: 80.1928783383
+Train Accuracy: 80.3412462908
+Train Accuracy: 80.1928783383
+Train Accuracy: 79.5252225519
+Train Accuracy: 80.118694362
+Train Accuracy: 80.6379821958
+Train Accuracy: 80.3412462908
+Train Accuracy: 80.3412462908
+Train Accuracy: 79.6735905045
+Train Accuracy: 80.118694362
+Train Accuracy: 80.1928783383
+Train Accuracy: 80.4896142433
+Train Accuracy: 80.3412462908
+Train Accuracy: 79.5252225519
+Train Accuracy: 80.1928783383
+Train Accuracy: 80.4154302671
+Train Accuracy: 80.3412462908
+Train Accuracy: 80.3412462908
+Train Accuracy: 80.1928783383
+Train Accuracy: 79.821958457
+Train Accuracy: 80.0445103858
+Train Accuracy: 80.4896142433
+Train Accuracy: 80.2670623145
+Train Accuracy: 79.3768545994
+Train Accuracy: 80.2670623145
+Train Accuracy: 80.3412462908
+Train Accuracy: 80.3412462908
+Train Accuracy: 80.1928783383
+Train Accuracy: 79.4510385757
+Train Accuracy: 80.4154302671
+Train Accuracy: 80.3412462908
+Train Accuracy: 79.4510385757
+Train Accuracy: 80.2670623145
+Train Accuracy: 80.2670623145
+Training Accuracy: 80.2670623145
+Validation Accuracy: 81.0810810811

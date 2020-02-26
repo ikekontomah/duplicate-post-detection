@@ -1,0 +1,523 @@
+(6867p2) dhcp-18-111-63-33:6867-project KT$ python LDA_feature_extract.py 
+Generating Data...
+android
+Generating Data...
+Subforum: android
+('Loaded all data from', '../data/cqadupstack/android.zip')
+starting speedy data generation...
+('Loaded all data from', '../data/cqadupstack/android.zip')
+collecting duplicate pairs...
+('Total number of unique duplicate pairs is:', 1713)
+('Total number of non-duplicate pairs is:', 1713)
+('validate with: ', 171, 'train with: ', 1542)
+('validation set size: ', (342, 3), 'train set size: ', (3084, 3))
+almost done with speedy data generation, compiling post bodies...
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.75857449  0.61660343]
+ [ 0.77742237  0.67213291]
+ [ 0.67290825  0.49009535]
+ [ 0.75131053  0.25214216]
+ [ 0.87890226  0.57223666]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.59824854  0.7051928 ]
+ [ 0.2212519   0.65188426]
+ [ 0.10897421  0.21808891]
+ [ 0.65697932  0.96795011]
+ [ 0.7860449   0.58863717]]
+[ 1.  1.  1.  1.  1.]
+Training knn...
+Training Accuracy: 0.771725032425
+Validation Accuracy: 0.760233918129
+Generating Data...
+english
+Generating Data...
+Subforum: english
+('Loaded all data from', '../data/cqadupstack/english.zip')
+starting speedy data generation...
+('Loaded all data from', '../data/cqadupstack/english.zip')
+collecting duplicate pairs...
+('Total number of unique duplicate pairs is:', 3891)
+('Total number of non-duplicate pairs is:', 3891)
+('validate with: ', 389, 'train with: ', 3502)
+('validation set size: ', (778, 3), 'train set size: ', (7004, 3))
+almost done with speedy data generation, compiling post bodies...
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.55062664  0.60861713]
+ [ 0.27858883  0.55846626]
+ [ 0.450212    0.55141574]
+ [ 0.61525774  0.2577121 ]
+ [ 0.41165987  0.41653922]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.45032993  0.49977079]
+ [ 0.18279217  0.52298486]
+ [ 0.1078413   0.07417639]
+ [ 0.61662519  0.64287603]
+ [ 0.77489585  0.73018432]]
+[ 1.  1.  1.  1.  1.]
+Training knn...
+Training Accuracy: 0.856796116505
+Validation Accuracy: 0.859897172237
+Generating Data...
+gaming
+Generating Data...
+Subforum: gaming
+('Loaded all data from', '../data/cqadupstack/gaming.zip')
+starting speedy data generation...
+('Loaded all data from', '../data/cqadupstack/gaming.zip')
+collecting duplicate pairs...
+('Total number of unique duplicate pairs is:', 2279)
+('Total number of non-duplicate pairs is:', 2279)
+('validate with: ', 227, 'train with: ', 2052)
+('validation set size: ', (454, 3), 'train set size: ', (4104, 3))
+almost done with speedy data generation, compiling post bodies...
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.32180631  0.79438663]
+ [ 0.58961582  0.41692924]
+ [ 0.62036484  0.66448158]
+ [ 0.30100486  0.47832128]
+ [ 0.58698648  0.79052389]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.71919727  0.38977405]
+ [ 0.52560228  0.63707781]
+ [ 0.64798832  0.69679582]
+ [ 0.64354461  0.79533738]
+ [ 0.57179141  0.77235031]]
+[ 1.  1.  1.  1.  1.]
+Training knn...
+Training Accuracy: 0.801900584795
+Validation Accuracy: 0.799559471366
+Generating Data...
+gis
+Generating Data...
+Subforum: gis
+('Loaded all data from', '../data/cqadupstack/gis.zip')
+starting speedy data generation...
+('Loaded all data from', '../data/cqadupstack/gis.zip')
+collecting duplicate pairs...
+('Total number of unique duplicate pairs is:', 1116)
+('Total number of non-duplicate pairs is:', 1116)
+('validate with: ', 111, 'train with: ', 1005)
+('validation set size: ', (222, 3), 'train set size: ', (2010, 3))
+almost done with speedy data generation, compiling post bodies...
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.36457181  0.35911301]
+ [ 0.75417584  0.67813063]
+ [ 0.60285115  0.51003283]
+ [ 0.84554279  0.83631498]
+ [ 0.66774857  0.51138961]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.91995156  0.82531101]
+ [ 0.55808836  0.91972077]
+ [ 0.68629062  0.77525294]
+ [ 0.63162941  0.29048491]
+ [ 0.72953504  0.33820787]]
+[ 1.  1.  1.  1.  1.]
+Training knn...
+Training Accuracy: 0.799004975124
+Validation Accuracy: 0.783783783784
+Generating Data...
+mathematica
+Generating Data...
+Subforum: mathematica
+('Loaded all data from', '../data/cqadupstack/mathematica.zip')
+starting speedy data generation...
+('Loaded all data from', '../data/cqadupstack/mathematica.zip')
+collecting duplicate pairs...
+('Total number of unique duplicate pairs is:', 1372)
+('Total number of non-duplicate pairs is:', 1372)
+('validate with: ', 137, 'train with: ', 1235)
+('validation set size: ', (274, 3), 'train set size: ', (2470, 3))
+almost done with speedy data generation, compiling post bodies...
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.39016336  0.4799943 ]
+ [ 0.54788768  0.28765076]
+ [ 0.65459746  0.63681799]
+ [ 0.67172605  0.03776987]
+ [ 0.58477467  0.73014939]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.42630473  0.494353  ]
+ [ 0.8007617   0.36541903]
+ [ 0.48336521  0.48470071]
+ [ 0.47711343  0.27563381]
+ [-0.02935797  0.56619471]]
+[ 1.  1.  1.  1.  1.]
+Training knn...
+Training Accuracy: 0.77004048583
+Validation Accuracy: 0.740875912409
+Generating Data...
+physics
+Generating Data...
+Subforum: physics
+('Loaded all data from', '../data/cqadupstack/physics.zip')
+starting speedy data generation...
+('Loaded all data from', '../data/cqadupstack/physics.zip')
+collecting duplicate pairs...
+('Total number of unique duplicate pairs is:', 1968)
+('Total number of non-duplicate pairs is:', 1968)
+('validate with: ', 196, 'train with: ', 1772)
+('validation set size: ', (392, 3), 'train set size: ', (3544, 3))
+almost done with speedy data generation, compiling post bodies...
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.51780128  0.50469798]
+ [ 0.17768747  0.80746967]
+ [ 0.61831033  0.38093519]
+ [ 0.33594903  0.70770556]
+ [ 0.52344519  0.40852118]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.70883369  0.39396483]
+ [ 0.54868823  0.4010466 ]
+ [ 0.43092972  0.4076795 ]
+ [ 0.76996946  0.68981189]
+ [ 0.59880859  0.82333064]]
+[ 1.  1.  1.  1.  1.]
+Training knn...
+Training Accuracy: 0.808690744921
+Validation Accuracy: 0.823979591837
+Generating Data...
+programmers
+Generating Data...
+Subforum: programmers
+('Loaded all data from', '../data/cqadupstack/programmers.zip')
+starting speedy data generation...
+('Loaded all data from', '../data/cqadupstack/programmers.zip')
+collecting duplicate pairs...
+('Total number of unique duplicate pairs is:', 1737)
+('Total number of non-duplicate pairs is:', 1737)
+('validate with: ', 173, 'train with: ', 1564)
+('validation set size: ', (346, 3), 'train set size: ', (3128, 3))
+almost done with speedy data generation, compiling post bodies...
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.76768953  0.4541932 ]
+ [ 0.32673243  0.45619169]
+ [ 0.55592626  0.42685303]
+ [ 0.2903018   0.6141246 ]
+ [ 0.6504851   0.37550759]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.2626957   0.8129853 ]
+ [ 0.45834878  0.78425807]
+ [ 0.49182248  0.54220659]
+ [ 0.31322402  0.55594969]
+ [ 0.43911108  0.41811308]]
+[ 1.  1.  1.  1.  1.]
+Training knn...
+Training Accuracy: 0.7976342711
+Validation Accuracy: 0.78901734104
+Generating Data...
+stats
+Generating Data...
+Subforum: stats
+('Loaded all data from', '../data/cqadupstack/stats.zip')
+starting speedy data generation...
+('Loaded all data from', '../data/cqadupstack/stats.zip')
+collecting duplicate pairs...
+('Total number of unique duplicate pairs is:', 916)
+('Total number of non-duplicate pairs is:', 916)
+('validate with: ', 91, 'train with: ', 825)
+('validation set size: ', (182, 3), 'train set size: ', (1650, 3))
+almost done with speedy data generation, compiling post bodies...
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.45844114  0.70058769]
+ [ 0.45718849  0.43479475]
+ [ 0.69913465  0.40338916]
+ [ 0.60904473  0.26427186]
+ [ 0.55733818  0.62837178]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.71525455  0.87125933]
+ [ 0.9781425   0.8892867 ]
+ [ 0.6288119   0.56008381]
+ [ 0.57411677  0.6437965 ]
+ [ 0.45089975  0.37107882]]
+[ 1.  1.  1.  1.  1.]
+Training knn...
+Training Accuracy: 0.749696969697
+Validation Accuracy: 0.769230769231
+Generating Data...
+tex
+Generating Data...
+Subforum: tex
+('Loaded all data from', '../data/cqadupstack/tex.zip')
+starting speedy data generation...
+('Loaded all data from', '../data/cqadupstack/tex.zip')
+collecting duplicate pairs...
+('Total number of unique duplicate pairs is:', 5194)
+('Total number of non-duplicate pairs is:', 5194)
+('validate with: ', 519, 'train with: ', 4675)
+('validation set size: ', (1038, 3), 'train set size: ', (9350, 3))
+almost done with speedy data generation, compiling post bodies...
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.39719659  0.25125444]
+ [ 0.50170135  0.4391461 ]
+ [ 0.35532761  0.53601283]
+ [ 0.59806925  0.13935848]
+ [ 0.39372653  0.54534441]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.3060129   0.74587971]
+ [ 0.54775167  0.43942958]
+ [ 0.43373179  0.37250108]
+ [ 0.05379597  0.59666467]
+ [ 0.69647175  0.28726918]]
+[ 1.  1.  1.  1.  1.]
+Training knn...
+Training Accuracy: 0.776256684492
+Validation Accuracy: 0.771676300578
+Generating Data...
+unix
+Generating Data...
+Subforum: unix
+('Loaded all data from', '../data/cqadupstack/unix.zip')
+starting speedy data generation...
+('Loaded all data from', '../data/cqadupstack/unix.zip')
+collecting duplicate pairs...
+('Total number of unique duplicate pairs is:', 1714)
+('Total number of non-duplicate pairs is:', 1714)
+('validate with: ', 171, 'train with: ', 1543)
+('validation set size: ', (342, 3), 'train set size: ', (3086, 3))
+almost done with speedy data generation, compiling post bodies...
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.88362938  0.97113466]
+ [ 0.60490882  0.58673924]
+ [ 0.50678581  0.766249  ]
+ [ 0.63699013  0.45870665]
+ [ 0.35722169  0.56454772]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.56838369  0.28623036]
+ [ 0.76240969  0.73444092]
+ [ 0.78271526  0.74294114]
+ [ 0.45417893  0.40313587]
+ [ 0.66506439  0.67642909]]
+[ 1.  1.  1.  1.  1.]
+Training knn...
+Training Accuracy: 0.795528191834
+Validation Accuracy: 0.801169590643
+Generating Data...
+webmasters
+Generating Data...
+Subforum: webmasters
+('Loaded all data from', '../data/cqadupstack/webmasters.zip')
+starting speedy data generation...
+('Loaded all data from', '../data/cqadupstack/webmasters.zip')
+collecting duplicate pairs...
+('Total number of unique duplicate pairs is:', 1395)
+('Total number of non-duplicate pairs is:', 1395)
+('validate with: ', 139, 'train with: ', 1256)
+('validation set size: ', (278, 3), 'train set size: ', (2512, 3))
+almost done with speedy data generation, compiling post bodies...
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.54825824  0.97453552]
+ [ 0.6874308   0.52682287]
+ [ 0.79477727  0.77075273]
+ [ 0.60375005  0.59020609]
+ [ 0.57792246  0.73037148]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.41170526  0.42723793]
+ [ 0.52917683  0.54201537]
+ [ 0.87222409  0.61119998]
+ [ 0.52662778  0.24264494]
+ [ 0.3213535   0.59024686]]
+[ 1.  1.  1.  1.  1.]
+Training knn...
+Training Accuracy: 0.792197452229
+Validation Accuracy: 0.805755395683
+Generating Data...
+wordpress
+Generating Data...
+Subforum: wordpress
+('Loaded all data from', '../data/cqadupstack/wordpress.zip')
+starting speedy data generation...
+('Loaded all data from', '../data/cqadupstack/wordpress.zip')
+collecting duplicate pairs...
+('Total number of unique duplicate pairs is:', 748)
+('Total number of non-duplicate pairs is:', 748)
+('validate with: ', 74, 'train with: ', 674)
+('validation set size: ', (148, 3), 'train set size: ', (1348, 3))
+almost done with speedy data generation, compiling post bodies...
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.48802125  0.92388386]
+ [ 0.39613774  0.91856623]
+ [ 0.86178738  0.77601081]
+ [-0.24609879  0.40369275]
+ [ 0.51778734  0.44259658]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.66809726  0.40932605]
+ [ 0.38297898  0.72948569]
+ [ 0.46533433  0.94977421]
+ [ 0.60406649  0.55675733]
+ [ 0.81853443  0.77177626]]
+[ 1.  1.  1.  1.  1.]
+Training knn...
+Training Accuracy: 0.799703264095
+Validation Accuracy: 0.837837837838
+(6867p2) dhcp-18-111-63-33:6867-project KT$ git pull
+Enter passphrase for key '/Users/KT/.ssh/id_rsa': 
+Already up-to-date.
+(6867p2) dhcp-18-111-63-33:6867-project KT$ git add -A .
+(6867p2) dhcp-18-111-63-33:6867-project KT$ git commit
+[master fee1ba0] Isaac : changed LDA to run for all 12 different data groups
+ 2 files changed, 26 insertions(+), 23 deletions(-)
+(6867p2) dhcp-18-111-63-33:6867-project KT$ git push origin master
+Enter passphrase for key '/Users/KT/.ssh/id_rsa': 
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 10.07 MiB | 0 bytes/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.mit.edu:rohanb/6867-project.git
+   558b929..fee1ba0  master -> master
+(6867p2) dhcp-18-111-63-33:6867-project KT$ 

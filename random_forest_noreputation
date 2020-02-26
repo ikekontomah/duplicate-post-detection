@@ -1,0 +1,397 @@
+(6867p2) dhcp-18-111-54-39:6867-project KT$ python LDA_feature_extract.py 
+Generating Data...
+android
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.58206409  0.75057093  0.66078027  0.77482589]
+ [ 0.6861034   0.78974959  0.99755741  0.72855093]
+ [ 0.78014511  0.3212469   0.52136469  0.88751059]
+ [ 0.69048798  0.95265191  0.86085483  0.62203298]
+ [ 0.70299745  0.83782974  0.37848778  0.62877218]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.45345834  0.01831422  0.68257424  0.32263041]
+ [ 0.59237134  0.44399228  0.05704385  0.91092743]
+ [ 0.6619069   0.73039476  0.95096362  0.96176476]
+ [ 0.80794603  0.9895373   0.09318094  0.93865885]
+ [ 0.48865876  0.91420617  0.45471982  0.15492272]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.826523994812
+Validation Accuracy: 0.789473684211
+Generating Data...
+english
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.42854857  0.51573849  0.47351058  0.42610613]
+ [ 0.57840192  0.38851285  0.07218029  0.04631557]
+ [ 0.78744727  0.58890089  0.73143655  0.90248962]
+ [-0.05576517  0.07706252  0.13043478  0.69812065]
+ [ 0.38952553  0.03517912  1.          0.18669849]]
+[ 1.  1.  1.  1.  1.]
+[[-0.03791929  0.04104771  0.07624042  0.5560801 ]
+ [ 0.55297017  0.67230035  0.51630815  0.92758398]
+ [ 0.05493785  0.82940051  0.41702883  0.08931249]
+ [ 0.1917883   0.4620752   0.33228888  0.65023406]
+ [ 0.19954525  0.56189337  0.51630815  0.64284877]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.648201027984
+Validation Accuracy: 0.659383033419
+Generating Data...
+gaming
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.386235    0.68961915  0.54869188  0.93202092]
+ [ 0.82173258  0.50038958  0.07950682  0.93767028]
+ [ 0.65062267  0.32160246  0.99112547  0.61489176]
+ [ 0.5975464   0.36519883  0.45108718  0.09036534]
+ [ 0.56719416  0.36986971  0.40298507  0.1606741 ]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.75863707  0.90177273  0.3866946   0.07624042]
+ [ 0.71079421  0.96123209  0.1131937   0.87368223]
+ [ 0.46562922  0.83228875  0.83083529  0.74493608]
+ [ 0.67841643  0.10078925  0.4472136   0.09046625]
+ [ 0.32749498  0.21687233  0.72588269  0.64918263]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.826754385965
+Validation Accuracy: 0.795154185022
+Generating Data...
+gis
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.38923731  0.64102721  0.16837651  0.78095393]
+ [ 0.32530242  0.79828598  0.63685225  0.88922024]
+ [ 0.89422005  0.59812717  0.90177273  0.94673318]
+ [ 0.68397057  0.9148328   0.64485071  0.77784823]
+ [ 0.67457056  0.93015271  0.6930865   0.94976058]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.78873461  0.9229516   0.1940868   0.38079241]
+ [ 0.55338174  0.60967902  0.79029028  0.56770391]
+ [ 0.57229656  0.92541382  0.40855873  0.85458265]
+ [ 0.6058206   0.51180041  0.88290107  0.68987726]
+ [ 0.83576578  0.69999625  0.87073118  0.80451283]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.842288557214
+Validation Accuracy: 0.81981981982
+Generating Data...
+mathematica
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.54372758  0.50666594  0.7379965   0.08056431]
+ [ 0.62002152  0.59530835  0.82412732  0.59130993]
+ [ 0.49631158  0.43235196  0.04185917  0.50802547]
+ [ 0.46416801  0.58142833  0.08084521  0.6358889 ]
+ [ 0.46578521  0.80364992  0.82683983  0.52373151]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.26423034  0.77993078  0.4472136   0.41621665]
+ [ 0.58468193  0.02041888  0.05388336  0.01916889]
+ [ 0.43828586  0.56940366  0.74267123  0.62921114]
+ [ 0.23304097  0.44792354  0.89709793  0.58213786]
+ [ 0.49512434  0.39941025  0.08482781  0.93921748]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.780566801619
+Validation Accuracy: 0.744525547445
+Generating Data...
+physics
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.44359127  0.32449828  0.40118204  0.90486236]
+ [ 0.19986971  0.85582429  0.74600385  0.84638332]
+ [ 0.83344567  0.9256911   0.99999989  0.90593407]
+ [ 0.65272421  0.94351157  0.97262686  0.91833754]
+ [ 0.32183316  0.59187688  0.47351058  0.93768996]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.81619465  0.50233701  0.91925714  0.41747477]
+ [ 0.50674671  0.06802591  0.25977002  0.23984519]
+ [ 0.44662467  0.66498212  0.065407    0.70727531]
+ [ 0.59448749  0.63640245  0.09603469  0.27740639]
+ [ 0.21893987  0.46395235  0.73143655  0.84343756]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.864559819413
+Validation Accuracy: 0.862244897959
+Generating Data...
+programmers
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.66010273  0.03059691  0.27565892  0.98448931]
+ [ 0.51498806  0.78074802  0.07442463  0.43392619]
+ [ 0.40985656  0.08134317  0.72760688  0.59396097]
+ [ 0.36512929  0.19699088  0.35437465  0.68427425]
+ [ 0.34637952  0.42200248  0.82034002  0.67892525]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.25533843  0.70396978  0.07165008  0.64917761]
+ [ 0.57756561  0.19317967  0.4661985   0.83881349]
+ [ 0.55286562  0.14991492  0.07080471  0.48141102]
+ [ 0.33416122  0.28097836  0.42664092  0.10802702]
+ [ 0.72755659  0.03312937  0.09603469  0.06455086]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.81425831202
+Validation Accuracy: 0.81425831202
+Generating Data...
+stats
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.30291274  0.54248265  0.33198793  0.05059874]
+ [ 0.52026528  0.71122416  0.94320668  0.88607745]
+ [ 0.67833     0.70404316  0.31457763  0.95924105]
+ [ 0.46643004  0.08011742  0.04384269  0.42999043]
+ [ 0.70159167  0.6465734   0.15937673  0.65634084]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.52041793  0.80912588  0.9708171   0.80044815]
+ [ 0.79985142  0.59426344  0.63412589  0.88508831]
+ [ 0.63622826  0.7875015   0.06628302  0.93990938]
+ [ 0.42236912  0.50958619  0.17214308  0.18664173]
+ [ 0.50023216  0.41588008  0.78507635  0.89325931]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.838181818182
+Validation Accuracy: 0.785714285714
+Generating Data...
+tex
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.21895379  0.64041134  0.52306372  0.25574564]
+ [ 0.40841135  0.80605401  0.96011493  0.87178747]
+ [ 0.53448242  0.43789423  0.40298508  0.53798468]
+ [ 0.49899006  0.70220041  0.1326149   0.58678776]
+ [ 0.33856022  0.57980873  0.47351058  0.88842107]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.25748408  0.47357267  0.23310662  0.66471869]
+ [ 0.8714754   0.98432924  0.74902434  0.97431616]
+ [ 0.59327489  0.14935771  0.11015202  0.88548525]
+ [ 0.25592238  0.9072738   0.12433397  0.95513305]
+ [ 0.39090022  0.77138044  0.07330565  0.54436043]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.82192513369
+Validation Accuracy: 0.826589595376
+Generating Data...
+unix
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.8666141   0.88493297  0.85094721  0.94609123]
+ [ 0.97805947  1.          0.63685225  0.99919364]
+ [ 0.62327355  0.50750419  0.74902434  0.79048852]
+ [ 0.64670718  0.3100173   0.4981152   0.21723326]
+ [ 0.40459946  0.47299531  0.62159689  0.63197073]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.77436519  0.79571935  0.61442356  0.9124959 ]
+ [ 0.82449579  0.69147646  0.9164543   0.82568508]
+ [ 0.46455401  0.32072508  0.65360869  0.38569559]
+ [ 0.51348495  0.45407482  0.10275261  0.41835764]
+ [ 0.61752456  0.89916409  0.54526293  0.33026426]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.854504212573
+Validation Accuracy: 0.821637426901
+Generating Data...
+webmasters
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.46314657  0.75276524  0.87204974  0.99880883]
+ [ 0.96841013  0.99028441  1.          0.99824209]
+ [ 0.65543842  0.99655783  0.42601457  0.99509711]
+ [ 0.47096407  0.44442047  0.73301748  0.62937394]
+ [ 0.90386462  0.92709233  0.83572866  0.65987988]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.69809473  0.01968189  0.86912097  0.01583828]
+ [ 0.55393273  0.8045725   0.85853891  0.73170398]
+ [ 0.41566333  0.42062313  0.85594318  0.99887867]
+ [ 0.64753711  0.44476584  0.67927266  0.69298576]
+ [ 0.5216856   0.51679166  0.83177464  0.8850781 ]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.828821656051
+Validation Accuracy: 0.845323741007
+Generating Data...
+wordpress
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+Calculating Cosine Distance Between LDA Features...
+[[ 0.89852566  0.75241038  0.06282115  0.8873838 ]
+ [ 0.54272443  0.36827712  0.05351748  0.96082635]
+ [ 0.93382877  0.18528418  0.82947176  0.93811326]
+ [ 0.56267637  0.9099803   0.05395605  0.06802563]
+ [ 0.26863378  0.93953634  0.04455652  0.88713368]]
+[ 1.  1.  1.  1.  1.]
+[[ 0.62573785  0.52209673  0.04779818  0.68300888]
+ [ 0.3798019   0.54893827  0.71157837  0.77801916]
+ [ 0.98626477  0.99932166  0.55302547  0.97729899]
+ [ 0.52845228  0.4329909   0.68890049  0.62564181]
+ [ 0.64114225  0.90252577  0.85535957  0.8509522 ]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.794510385757
+Validation Accuracy: 0.72972972973

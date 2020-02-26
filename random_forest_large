@@ -1,0 +1,698 @@
+(6867p2) dhcp-18-111-54-39:6867-project KT$ python LDA_feature_extract.py 
+Generating Data...
+android
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(3084, 6)
+(342, 6)
+[[  6.41884387e-01   5.85805822e-01   1.97000000e+02   6.00000000e+00
+    1.50000000e+01   1.00000000e+00]
+ [  6.26594841e-01   5.01106725e-01   3.00000000e+00   3.00000000e+00
+    0.00000000e+00   0.00000000e+00]
+ [  8.14550161e-01   6.83069461e-01   3.50500000e+04   1.11000000e+02
+    7.20000000e+01   2.00000000e+00]
+ [  6.30696595e-01   9.34835859e-01   2.56000000e+02   1.00000000e+00
+    1.10000000e+01   0.00000000e+00]
+ [  6.36379004e-01   8.04804476e-01   3.50500000e+04   1.01000000e+02
+    6.50000000e+01   0.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+[[  7.54721463e-01   4.01618745e-01   1.23100000e+03   1.60000000e+01
+    4.20000000e+01   3.00000000e+00]
+ [  3.88099432e-01   3.01234791e-01   1.86660000e+04   1.00000000e+00
+    1.72000000e+02   0.00000000e+00]
+ [  3.31909060e-01   4.47686159e-01   2.21000000e+02   0.00000000e+00
+    1.30000000e+01   2.00000000e+00]
+ [  5.33019125e-01   3.89654273e-01   6.20200000e+03   1.00000000e+00
+    3.40000000e+01   0.00000000e+00]
+ [  4.57761854e-01   5.07893695e-01   1.65000000e+02   1.00000000e+00
+    9.00000000e+00   0.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.85635538262
+Validation Accuracy: 0.865497076023
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/android.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 0.813590449954
+Generating Data...
+english
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(7004, 6)
+(778, 6)
+[[  6.00540638e-01   2.70599466e-01   4.00700000e+03   2.10000000e+01
+    2.50000000e+01   1.00000000e+00]
+ [  5.45406044e-01   5.28491857e-01   3.24660000e+04   1.50000000e+01
+    4.00000000e+01   0.00000000e+00]
+ [  7.73922622e-01   5.64847750e-01   8.00000000e+00   8.00000000e+00
+    1.00000000e+00   0.00000000e+00]
+ [  1.76054552e-01   2.71034876e-01   9.60000000e+01   9.60000000e+01
+   -2.00000000e+00   0.00000000e+00]
+ [  1.23572282e-01   5.55513770e-01   2.60800000e+03   1.10000000e+01
+    5.00000000e+00   1.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+[[  4.52760667e-01   3.22810080e-01   2.05000000e+02   1.66800000e+03
+    1.50000000e+01   0.00000000e+00]
+ [ -2.04488128e-01   6.26160474e-01   1.90000000e+01   4.14000000e+02
+    3.00000000e+00   0.00000000e+00]
+ [  5.99896371e-01   3.63711865e-01   6.00000000e+02   2.08600000e+03
+    1.00000000e+01   4.00000000e+00]
+ [  2.75820494e-01   8.27115430e-01   2.28000000e+02   1.01000000e+02
+    3.10000000e+01   0.00000000e+00]
+ [  7.65131116e-01   9.11793026e-01   3.10000000e+01   6.30000000e+01
+    6.00000000e+00   0.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.758138206739
+Validation Accuracy: 0.730077120823
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/english.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 0.841414141414
+Generating Data...
+gaming
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(4104, 6)
+(454, 6)
+[[  2.49628738e-01   1.59802347e-02   6.90000000e+01   3.51200000e+03
+    1.30000000e+01  -2.00000000e+00]
+ [  7.40433156e-01   6.92335659e-01   1.28000000e+02   9.00000000e+00
+    1.10000000e+01   2.00000000e+00]
+ [  5.49590647e-01   4.06651961e-01   5.37600000e+03   1.70000000e+01
+    2.80000000e+01   1.00000000e+00]
+ [  6.06323421e-01   7.09286591e-02   3.52600000e+03   2.07000000e+02
+    4.40000000e+01   2.00000000e+00]
+ [  6.97805464e-01   1.06022851e-01   9.06000000e+02   1.90000000e+01
+    4.00000000e+00   1.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+[[  4.80395230e-03   3.28381679e-01   1.59700000e+03   4.11000000e+02
+    7.00000000e+00   5.00000000e+00]
+ [  5.68697035e-01   8.47162220e-01   8.06700000e+03   1.57600000e+03
+    2.40000000e+01  -1.00000000e+00]
+ [  5.61598241e-01   5.92619317e-01   3.80000000e+01   1.36000000e+02
+    7.00000000e+00   0.00000000e+00]
+ [  6.56164408e-01   4.03003122e-01   2.10000000e+01   1.00000000e+00
+    4.00000000e+00   0.00000000e+00]
+ [  7.26433158e-01   6.57747234e-01   1.76850000e+04   2.17000000e+02
+    2.10000000e+01   1.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.822855750487
+Validation Accuracy: 0.795154185022
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/gaming.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 0.848684210526
+Generating Data...
+gis
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(2010, 6)
+(222, 6)
+[[  3.43563378e-01   8.39908926e-01   7.17000000e+02   1.00000000e+00
+    3.00000000e+00   0.00000000e+00]
+ [  2.25820065e-01   8.63170143e-01   4.40000000e+01   1.00000000e+00
+    2.00000000e+00   0.00000000e+00]
+ [  8.03032219e-01   6.00797539e-01   1.00000000e+00   1.00000000e+00
+    0.00000000e+00   0.00000000e+00]
+ [  7.27083147e-01   9.97840013e-01   3.10000000e+01   3.10000000e+01
+    0.00000000e+00   1.00000000e+00]
+ [  6.30468547e-01   9.30790214e-01   6.75000000e+02   4.70000000e+01
+    1.00000000e+00   0.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+[[  4.53014970e-01   8.65496943e-01   1.48000000e+02   2.60000000e+01
+    3.00000000e+00   1.00000000e+00]
+ [  8.40345383e-01   9.49015346e-01   7.71500000e+03   1.15000000e+02
+    6.00000000e+00   0.00000000e+00]
+ [  2.67522603e-01   7.31423607e-01   3.26000000e+02   5.60000000e+01
+    5.80000000e+01   1.00000000e+00]
+ [  7.06944406e-01   7.54466207e-01   5.10000000e+01   2.10000000e+01
+    1.00000000e+01   0.00000000e+00]
+ [  6.53235793e-01   8.44644895e-01   4.75000000e+02   1.00000000e+00
+    3.00000000e+00   0.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.82736318408
+Validation Accuracy: 0.846846846847
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/gis.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 0.745585349902
+Generating Data...
+mathematica
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(2470, 6)
+(274, 6)
+[[  5.12246013e-01   2.14382182e-01   3.64000000e+02   3.30000000e+01
+    5.00000000e+00   6.00000000e+00]
+ [  5.32740474e-01   4.62164649e-01   1.55000000e+02   2.39000000e+02
+    0.00000000e+00   1.00000000e+00]
+ [  6.02560401e-01   4.15697561e-01   1.31000000e+02   1.40000000e+01
+    2.00000000e+00   1.00000000e+00]
+ [  4.01448101e-01   9.52425339e-01   5.49190000e+04   1.06000000e+02
+    1.60000000e+02   0.00000000e+00]
+ [  4.11472946e-01   3.25821939e-01   7.27000000e+02   1.10000000e+01
+    1.00000000e+00   1.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+[[  6.01755440e-01   7.08048096e-01   2.89500000e+03   4.60000000e+01
+    1.20000000e+01   0.00000000e+00]
+ [  6.62151098e-01   8.57369536e-01   1.35000000e+02   6.00000000e+00
+    1.40000000e+01   1.00000000e+00]
+ [  6.08111262e-01   5.01435806e-01   2.33700000e+03   9.58000000e+02
+    4.00000000e+00   2.00000000e+00]
+ [  8.93290699e-01   8.14275367e-01   4.66000000e+02   4.66000000e+02
+    1.00000000e+00   5.00000000e+00]
+ [  6.46957874e-01   7.05484775e-01   2.89500000e+03   1.52000000e+02
+    1.20000000e+01   3.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.762348178138
+Validation Accuracy: 0.755474452555
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/mathematica.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 0.748771498771
+Generating Data...
+physics
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(3544, 6)
+(392, 6)
+[[  4.77772117e-01   4.09187714e-02   1.75000000e+02   1.00000000e+00
+    1.00000000e+00  -1.00000000e+00]
+ [  2.93839633e-01   5.63837999e-01   1.17000000e+02   5.69000000e+02
+    6.00000000e+00   2.00000000e+00]
+ [  8.28964114e-01   8.92117020e-01   1.06700000e+03   2.18400000e+03
+    1.10000000e+01   4.00000000e+00]
+ [  6.57823801e-01   8.83400685e-01   1.11000000e+02   2.04000000e+02
+    1.00000000e+00  -1.00000000e+00]
+ [  2.08853066e-01   2.94634201e-01   1.18510000e+04   5.00000000e+01
+    7.00000000e+00   1.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+[[  4.74960268e-01   5.61713326e-01   3.85000000e+02   5.42000000e+02
+    3.40000000e+01   1.00000000e+00]
+ [  5.44878185e-01   8.05205351e-01   0.00000000e+00   3.00000000e+00
+    1.70000000e+01   0.00000000e+00]
+ [  5.21928608e-01   5.77139724e-01   6.91000000e+02   1.25300000e+03
+    1.90000000e+01   3.00000000e+00]
+ [  6.55040622e-01   9.73188531e-01   7.20000000e+02   9.69000000e+02
+    4.00000000e+00   1.00000000e+00]
+ [  6.11496031e-01   9.63793839e-01   1.03000000e+02   4.00000000e+00
+    0.00000000e+00   0.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.840293453725
+Validation Accuracy: 0.826530612245
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/physics.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 0.820882088209
+Generating Data...
+programmers
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(3128, 6)
+(346, 6)
+[[  6.89395308e-01   8.73177204e-01   6.00000000e+02   1.06800000e+03
+    3.60000000e+01   1.13000000e+02]
+ [  4.14566189e-01   8.52997101e-01   4.32700000e+03   2.86000000e+02
+    1.20000000e+01   0.00000000e+00]
+ [  4.90690321e-01   7.32044152e-02   3.31000000e+02   1.19000000e+02
+    5.37000000e+02   3.00000000e+00]
+ [  4.36809152e-01   7.76268925e-02   2.70000000e+02   1.66000000e+02
+    3.20000000e+01   4.00000000e+00]
+ [  4.89450544e-01   9.08306861e-01   1.11000000e+02   8.60000000e+01
+    2.00000000e+00   1.70000000e+01]]
+[ 1.  1.  1.  1.  1.]
+[[  2.58166283e-01   1.24751027e-01   1.07000000e+02   8.20000000e+01
+   -5.00000000e+00   1.00000000e+00]
+ [  4.78551418e-01   8.24321387e-01   4.06000000e+02   1.82000000e+02
+    1.70000000e+01   1.00000000e+01]
+ [  5.30964911e-01   7.71069270e-01   2.34300000e+03   1.69000000e+02
+    4.50000000e+01   7.00000000e+00]
+ [  5.94776213e-01   9.97183721e-01   7.60500000e+03   1.38000000e+02
+    6.20000000e+01   7.00000000e+00]
+ [  7.41042495e-01   5.43910665e-01   0.00000000e+00   1.11000000e+02
+    3.00000000e+00   2.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.820012787724
+Validation Accuracy: 0.812138728324
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/programmers.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 0.832432432432
+Generating Data...
+stats
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(1650, 6)
+(182, 6)
+[[  3.28002423e-01   5.43195021e-01   1.08000000e+02   6.00000000e+00
+    1.00000000e+00   1.00000000e+00]
+ [  4.51080859e-01   9.03659940e-01   7.10000000e+01   1.40000000e+02
+    8.00000000e+00   1.00000000e+00]
+ [  6.55338883e-01   5.90359552e-01   4.80000000e+01   6.00000000e+00
+    9.00000000e+00   1.00000000e+00]
+ [  2.94718742e-01   9.27662304e-02   1.85500000e+03   3.67900000e+03
+    5.40000000e+01   0.00000000e+00]
+ [  7.21635818e-01   5.27342526e-01   8.10000000e+01   2.10000000e+01
+    1.00000000e+01   2.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+[[  5.58139443e-01   8.52918691e-01   2.76000000e+02   1.00000000e+00
+    3.00000000e+00   0.00000000e+00]
+ [  7.47246802e-01   7.38765321e-01   7.54000000e+02   1.00000000e+00
+    1.50000000e+01   0.00000000e+00]
+ [  6.57909274e-01   7.78476377e-01   9.20000000e+01   4.60000000e+01
+    8.00000000e+00   0.00000000e+00]
+ [  7.18104899e-01   3.54525695e-01   4.50000000e+01   1.88000000e+02
+    5.00000000e+00   0.00000000e+00]
+ [  7.85954773e-01   1.98809427e-01   1.29300000e+03   1.35000000e+02
+    4.40000000e+01   2.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.849090909091
+Validation Accuracy: 0.840659340659
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/stats.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 0.781639928699
+Generating Data...
+tex
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(9350, 6)
+(1038, 6)
+[[  3.98731351e-01   5.72282673e-01   7.01000000e+02   1.00000000e+00
+    5.50000000e+01   0.00000000e+00]
+ [  5.05424261e-01   6.13027205e-01   3.38700000e+03   4.28000000e+02
+    1.40000000e+01   3.00000000e+00]
+ [  5.70998073e-01   9.89368719e-01   1.66100000e+03   1.51000000e+02
+    2.20000000e+01   6.00000000e+00]
+ [  4.19776171e-01   2.45899341e-01   2.04900000e+03   1.92000000e+02
+    1.80000000e+01   0.00000000e+00]
+ [  2.93370903e-01   9.46066829e-02   1.03000000e+02   4.71000000e+02
+    2.00000000e+01   3.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+[[  2.38562524e-01   6.57579267e-01   5.10700000e+03   6.00000000e+00
+    3.40000000e+01   1.00000000e+00]
+ [  6.36135817e-01   5.29535866e-01   5.32000000e+02   1.00000000e+02
+    3.40000000e+01   1.00000000e+00]
+ [  6.23925269e-01   6.64375923e-01   2.09441000e+05   2.82200000e+03
+    5.20000000e+01   0.00000000e+00]
+ [  6.60358846e-01   4.68314474e-01   5.00000000e+01   2.84000000e+02
+    6.00000000e+00   5.00000000e+00]
+ [  3.67146850e-01   8.82594472e-01   2.68000000e+02   1.60000000e+02
+    2.70000000e+01   5.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.826844919786
+Validation Accuracy: 0.813102119461
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/tex.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 0.842808488342
+Generating Data...
+unix
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(3086, 6)
+(342, 6)
+[[  8.42710376e-01   9.56653548e-01   2.46100000e+03   4.69000000e+02
+    2.80000000e+01   2.00000000e+00]
+ [  7.16013908e-01   6.17339081e-01   2.10000000e+01   2.10000000e+01
+    3.00000000e+00   1.00000000e+00]
+ [  6.48797810e-01   2.13380915e-01   8.39200000e+03   1.73000000e+02
+    3.00000000e+00   1.40000000e+01]
+ [  4.10405964e-01   3.65981246e-02   3.80000000e+01   2.99000000e+02
+    7.00000000e+00   0.00000000e+00]
+ [  6.97966576e-01   7.90519397e-01   6.00000000e+00   4.64700000e+03
+    1.00000000e+00   0.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+[[  7.58008540e-01   1.16946483e-01   3.29800000e+03   1.10000000e+01
+    2.40000000e+01   2.00000000e+00]
+ [  6.27450407e-01   9.23299698e-01   7.00000000e+01   8.82000000e+02
+    8.00000000e+00   0.00000000e+00]
+ [  5.63355863e-01   7.93089476e-01   3.09520000e+04   6.48000000e+02
+    4.30000000e+01   0.00000000e+00]
+ [  4.90981847e-01   4.74856606e-01   2.89000000e+02   1.11000000e+02
+    4.00000000e+00   1.00000000e+00]
+ [  3.41128618e-01   3.36387944e-01   1.10000000e+01   2.60000000e+01
+    2.00000000e+00   1.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.820155541154
+Validation Accuracy: 0.812865497076
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/unix.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 0.865979381443
+Generating Data...
+webmasters
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(2512, 6)
+(278, 6)
+[[  6.83244944e-01   9.95704841e-01   3.48000000e+02   1.44000000e+02
+    2.20000000e+01   1.00000000e+00]
+ [  4.54742163e-01   5.30540866e-01   3.97000000e+02   1.79000000e+02
+    4.00000000e+01   1.00000000e+00]
+ [  7.39753902e-01   9.72850626e-01   1.48000000e+03   1.13000000e+02
+    3.00000000e+00   0.00000000e+00]
+ [  5.10067523e-01   2.87313643e-02   7.92000000e+02   1.85000000e+02
+    6.00000000e+00   3.00000000e+00]
+ [  6.36948764e-01   9.69610420e-01   1.13000000e+02   1.19270000e+04
+    2.00000000e+00   2.10000000e+01]]
+[ 1.  1.  1.  1.  1.]
+[[  7.44416833e-01   9.34717309e-01   1.80000000e+01   1.66000000e+02
+    3.00000000e+00   0.00000000e+00]
+ [  6.45611525e-01   2.15558610e-01   3.51500000e+03   1.00000000e+00
+    1.20000000e+01   0.00000000e+00]
+ [  6.72304511e-01   3.27508991e-01   3.97000000e+02   1.52000000e+02
+    4.00000000e+01   0.00000000e+00]
+ [  4.87047061e-02   1.59773548e-02   1.33000000e+02   1.55000000e+02
+    6.00000000e+00   5.00000000e+00]
+ [  2.10920423e-01   1.39148491e-01   9.25000000e+02   2.38000000e+02
+    4.00000000e+00   0.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.839570063694
+Validation Accuracy: 0.823741007194
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/webmasters.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 0.793024585477
+Generating Data...
+wordpress
+Training Doc2Vec...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Calculating Cosine Distance Between Doc2Vec Features...
+Making Topic Model...
+Calculating Cosine Distance Between LDA Features...
+(1348, 6)
+(148, 6)
+[[  2.29007795e-01   1.42100999e-01   3.11000000e+02   1.00000000e+00
+    2.00000000e+00   0.00000000e+00]
+ [  8.98722887e-01   6.27151291e-01   1.10700000e+03   1.10700000e+03
+    0.00000000e+00   0.00000000e+00]
+ [  5.64120591e-01   4.67370434e-01   6.12400000e+03   1.00000000e+00
+    2.00000000e+00   0.00000000e+00]
+ [  9.20417786e-01   5.41365414e-01   8.85000000e+02   9.00000000e+00
+    2.00000000e+00   0.00000000e+00]
+ [  8.38668168e-01   8.08335988e-01   2.13000000e+02   1.71000000e+02
+    2.20000000e+01   1.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+[[  7.46419251e-01   5.91208829e-01   5.33000000e+02   5.33000000e+02
+    0.00000000e+00   0.00000000e+00]
+ [  7.70195246e-01   9.25041251e-01   1.43810000e+04   1.00000000e+00
+    1.00000000e+00   0.00000000e+00]
+ [  7.19812632e-01   7.83779137e-02   1.29000000e+02   1.00000000e+00
+    1.00000000e+00   0.00000000e+00]
+ [  8.23970377e-01   8.83521673e-01   6.86000000e+02   1.55000000e+02
+    5.00000000e+00   0.00000000e+00]
+ [  4.77710783e-01   8.78855484e-01   2.29000000e+02   1.40000000e+02
+    0.00000000e+00   0.00000000e+00]]
+[ 1.  1.  1.  1.  1.]
+Training random_forest...
+Training Accuracy: 0.796735905045
+Validation Accuracy: 0.790540540541
+Starting testing!
+Starting extraction of test data...
+('Loaded all data from', '../data/cqadupstack/wordpress.zip')
+Starting featurization of test data...
+Epoch 0
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Test Accuracy: 0.702127659574
+(6867p2) dhcp-18-111-54-39:6867-project KT$ 
